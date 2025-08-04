@@ -1,0 +1,13 @@
+azure-search-documents
+azure-identity
+azure-maps-search
+promptflow
+promptflow-tools
+langchain
+langchainhub 
+langchain-community
+langsmith 
+langchain-openai
+wikipedia
+shapely
+DateTimeRange

@@ -1,0 +1,279 @@
+{
+  "package": {
+    "promptflow.tools.azure_content_safety.analyze_text": {
+      "module": "promptflow.tools.azure_content_safety",
+      "function": "analyze_text",
+      "inputs": {
+        "connection": {
+          "type": [
+            "AzureContentSafetyConnection"
+          ]
+        },
+        "hate_category": {
+          "default": "medium_sensitivity",
+          "enum": [
+            "disable",
+            "low_sensitivity",
+            "medium_sensitivity",
+            "high_sensitivity"
+          ],
+          "type": [
+            "string"
+          ]
+        },
+        "self_harm_category": {
+          "default": "medium_sensitivity",
+          "enum": [
+            "disable",
+            "low_sensitivity",
+            "medium_sensitivity",
+            "high_sensitivity"
+          ],
+          "type": [
+            "string"
+          ]
+        },
+        "sexual_category": {
+          "default": "medium_sensitivity",
+          "enum": [
+            "disable",
+            "low_sensitivity",
+            "medium_sensitivity",
+            "high_sensitivity"
+          ],
+          "type": [
+            "string"
+          ]
+        },
+        "text": {
+          "type": [
+            "string"
+          ]
+        },
+        "violence_category": {
+          "default": "medium_sensitivity",
+          "enum": [
+            "disable",
+            "low_sensitivity",
+            "medium_sensitivity",
+            "high_sensitivity"
+          ],
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "name": "Content Safety (Text Analyze)",
+      "description": "Use Azure Content Safety to detect harmful content.",
+      "type": "python",
+      "deprecated_tools": [
+        "content_safety_text.tools.content_safety_text_tool.analyze_text"
+      ],
+      "package": "promptflow-tools",
+      "package_version": "1.4.0"
+    }
+  },
+  "code": {
+    "chat.jinja2": {
+      "type": "llm",
+      "inputs": {
+        "chat_history": {
+          "type": [
+            "string"
+          ]
+        },
+        "question": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "chat.jinja2"
+    },
+    "modify_query_with_history.jinja2": {
+      "type": "llm",
+      "inputs": {
+        "chat_history": {
+          "type": [
+            "string"
+          ]
+        },
+        "chat_input": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "modify_query_with_history.jinja2"
+    },
+    "search_agent.py": {
+      "type": "python",
+      "inputs": {
+        "ask": {
+          "type": [
+            "string"
+          ]
+        },
+        "original_ask": {
+          "type": [
+            "string"
+          ]
+        },
+        "safety_action": {
+          "type": [
+            "string"
+          ]
+        },
+        "deployment_name": {
+          "type": [
+            "string"
+          ]
+        },
+        "intent": {
+          "type": [
+            "string"
+          ]
+        },
+        "aoai_connection": {
+          "type": [
+            "AzureOpenAIConnection"
+          ]
+        }
+      },
+      "source": "search_agent.py",
+      "function": "search_agent"
+    },
+    "format_json.jinja2": {
+      "type": "llm",
+      "inputs": {
+        "original_query": {
+          "type": [
+            "string"
+          ]
+        },
+        "text": {
+          "type": [
+            "string"
+          ]
+        },
+        "chat_history": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "format_json.jinja2"
+    },
+    "extract_safety_action.py": {
+      "type": "python",
+      "inputs": {
+        "safety_result": {
+          "type": [
+            "object"
+          ]
+        },
+        "attack_result": {
+          "type": [
+            "bool"
+          ]
+        },
+        "sensitive_subject_filter": {
+          "type": [
+            "string"
+          ]
+        },
+        "date_filter_result": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "extract_safety_action.py",
+      "function": "my_python_tool"
+    },
+    "determine_intent.jinja2": {
+      "type": "llm",
+      "inputs": {
+        "question": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "determine_intent.jinja2"
+    },
+    "prompt_shield.py": {
+      "type": "python",
+      "inputs": {
+        "prompt": {
+          "type": [
+            "string"
+          ]
+        },
+        "acsConnection": {
+          "type": [
+            "AzureContentSafetyConnection"
+          ]
+        }
+      },
+      "source": "prompt_shield.py",
+      "function": "my_python_tool"
+    },
+    "groundedness_check.py": {
+      "type": "python",
+      "inputs": {
+        "agentOutput": {
+          "type": [
+            "string"
+          ]
+        },
+        "acsConnection": {
+          "type": [
+            "AzureContentSafetyConnection"
+          ]
+        },
+        "aoaiConnection": {
+          "type": [
+            "AzureOpenAIConnection"
+          ]
+        }
+      },
+      "source": "groundedness_check.py",
+      "function": "my_python_tool"
+    },
+    "sensitive_subject_filter.py": {
+      "type": "python",
+      "inputs": {
+        "input1": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "sensitive_subject_filter.py",
+      "function": "my_python_tool"
+    },
+    "sensitive_subject_filter.jinja2": {
+      "type": "llm",
+      "inputs": {
+        "question": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "sensitive_subject_filter.jinja2"
+    },
+    "date_validity_check.jinja2": {
+      "type": "llm",
+      "inputs": {
+        "question": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "date_validity_check.jinja2"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+$schema: https://azuremlschemas.azureedge.net/promptflow/latest/Flow.schema.json
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  chat_history:
+    type: list
+    is_chat_history: true
+    default: []
+  question:
+    type: string
+    is_chat_input: true
+outputs:
+  answer:
+    type: string
+    reference: ${groundedness_check.output}
+    is_chat_output: true
+nodes:
+  - name: modify_query_with_history
+    type: llm
+    source:
+      type: code
+      path: modify_query_with_history.jinja2
+    inputs:
+      deployment_name: gpt-4o-mini
+      max_tokens: 12288
+      temperature: 0
+      chat_history: ${inputs.chat_history}
+      chat_input: ${inputs.question}
+    connection: azure_open_ai_connection
+    api: chat
+    activate:
+      when: ${extract_safety_action.output}
+      is: Accept
+  - name: search_agent
+    type: python
+    source:
+      type: code
+      path: search_agent.py
+    inputs:
+      ask: ${modify_query_with_history.output}
+      deployment_name: gpt-4o-mini
+      aoai_connection: azure_open_ai_connection
+      original_ask: ${inputs.question}
+      safety_action: ${extract_safety_action.output}
+      intent: ${determine_intent.output}
+  - name: input_safety
+    type: python
+    source:
+      type: package
+      tool: promptflow.tools.azure_content_safety.analyze_text
+    inputs:
+      connection: acs_connection_nasa
+      hate_category: high_sensitivity
+      self_harm_category: high_sensitivity
+      sexual_category: high_sensitivity
+      violence_category: medium_sensitivity
+      text: ${inputs.question}
+  - name: extract_safety_action
+    type: python
+    source:
+      type: code
+      path: extract_safety_action.py
+    inputs:
+      safety_result: ${input_safety.output}
+      attack_result: ${prompt_shield.output}
+      sensitive_subject_filter: ${sensitive_subject_filter.output}
+      date_filter_result: ${date_validity_check.output}
+  - name: determine_intent
+    type: llm
+    source:
+      type: code
+      path: determine_intent.jinja2
+    inputs:
+      deployment_name: gpt-4o-mini
+      max_tokens: 1000
+      response_format:
+        type: text
+      question: ${modify_query_with_history.output}
+      temperature: 1
+    connection: azure_open_ai_connection
+    api: chat
+    activate:
+      when: ${extract_safety_action.output}
+      is: Accept
+  - name: prompt_shield
+    type: python
+    source:
+      type: code
+      path: prompt_shield.py
+    inputs:
+      acsConnection: acs_connection_nasa
+      prompt: ${inputs.question}
+    activate:
+      when: ${input_safety.output.suggested_action}
+      is: Accept
+  - name: groundedness_check
+    type: python
+    source:
+      type: code
+      path: groundedness_check.py
+    inputs:
+      agentOutput: ${search_agent.output}
+      acsConnection: acs_connection_nasa
+      aoaiConnection: azure_open_ai_connection
+  - name: sensitive_subject_filter
+    type: llm
+    source:
+      type: code
+      path: sensitive_subject_filter.jinja2
+    inputs:
+      deployment_name: gpt-4o-mini
+      max_tokens: 4096
+      question: ${inputs.question}
+      temperature: 0
+    connection: azure_open_ai_connection
+    api: chat
+    activate:
+      when: ${input_safety.output.suggested_action}
+      is: Accept
+  - name: date_validity_check
+    type: llm
+    source:
+      type: code
+      path: date_validity_check.jinja2
+    inputs:
+      deployment_name: gpt-4o-mini
+      temperature: 0
+      max_tokens: 4096
+      question: ${inputs.question}
+    connection: azure_open_ai_connection
+    api: chat
+    activate:
+      when: ${input_safety.output.suggested_action}
+      is: Accept

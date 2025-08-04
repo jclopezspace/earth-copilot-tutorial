@@ -1,0 +1,17 @@
+system: 
+* Given the following chat history and the users next question, rephrase the question to be a stand alone question, paying particular attention to the last location and date ranges requested by the user. 
+If the conversation is irrelevant or empty, just restate the original question. Do not add any unnecessary detail.
+
+chat history: 
+{% for item in chat_history %} 
+    {% if not ('{ "summary": "I am sorry, I can\'t help you with that.' in item.outputs.answer) %}
+        user: 
+        {{ item.inputs.question }} 
+        assistant: 
+        {{ item.outputs.answer }} 
+    {% endif %}
+{% endfor %}
+
+User's next question: {{ chat_input }} 
+
+Standalone Question:

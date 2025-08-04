@@ -1,0 +1,111 @@
+{"properties": {
+	"dataset_ids": {
+		"title": "Dataset Ids", 
+		"description": "VEDA Collection IDs for most applicable collections", 
+		"type": "array", 
+		"items": {
+			"type": "string"
+			}
+		}, 
+		"summary": {
+			"title": "Summary", 
+			"description": "Answer to user's question", 
+			"type": "string"
+		},
+        "oneOf": [
+            { 
+                "date": {
+                    "title": "Date", 
+                    "description": "Singular Date to query VEDA collections", 
+                    "type": "string"
+                }, 
+                "date_range": {
+                    "title": "Date Range", 
+                    "description": "Date Range to query VEDA collections", 
+                    "type": "object",
+                    "properties": {
+                        "start_date": {
+                            "type": "date"
+                        },
+                        "end_date": {
+                            "type": "date"
+                        }
+                    }
+                }
+            }
+        ],
+		"bbox": {
+			"title": "Bbox", 
+			"description": "Bounding box coordinates for location to query VEDA collections",
+			"type": "object",
+			"properties": {
+				"type": {
+					"type": "string",
+					"const": "FeatureCollection"
+				},
+                "features": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "feature_type": {
+                                "type": "string",
+                                "const": "Feature"
+                            },
+                            "geometry": {
+                                "type": "object",
+                                "properties": {
+                                        "coordinates:": {
+                                            "type": "object",
+                                            "properties":  {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "type": "number",
+                                                        "minItems": "2",
+                                                        "maxItems": "2"
+                                                    },
+                                                    "minItems": "4",
+                                                    "maxItems": "4"
+                                                }
+                                            }
+                                        },
+                                        "type": {
+                                            "type": "string",
+                                            "const": "Polygon"
+                                        }
+                                }
+                            }
+                        },
+                        "minItems": "1",
+                        "maxItems": "1"
+                    }
+                }
+            }
+        },
+		"action": {
+			"type": "string",
+			"enum": ["load", "compare", "statistics", "More information needed"]
+		},
+		"explanation": {
+			"type": "object",
+			"properties": {
+				"validation": "string",
+				"verification": {
+					"type": "array",
+					"items": {
+						"query_part": "string",
+						"matchup": "string"
+					}
+				}
+			}
+		},
+		"query": {
+			"title": "Query", 
+			"description": "User's original query", 
+			"type": "string"
+		}
+	}, 
+	"required": ["dataset_ids", "summary", "date", "date_range", "bbox", "explanation", "query"]
+}
