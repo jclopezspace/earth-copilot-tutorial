@@ -1,7 +1,11 @@
 import json
+import os
 
-# load JSON data from file
-with open('/Users/minh/Downloads/open_veda_collections.json', 'r') as file:
+# Get the current directory of the script
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# load JSON data from file in the utils folder
+with open(os.path.join(current_dir, 'open_veda_collections.json'), 'r', encoding='utf-8') as file:
     data = json.load(file)
  
 # key to remove
@@ -59,5 +63,5 @@ remove_key(data, key19)
 print(json.dumps(data, indent=4))
 
 # saving the updated JSON data back to the file
-with open('/Users/minh/Downloads/open_veda_collections_minimized_with_extents.json', 'w') as file:
+with open(os.path.join(current_dir, 'open_veda_collections_minimized_with_extents.json'), 'w', encoding='utf-8') as file:
     json.dump(data, file, indent=2)

@@ -1,0 +1,6072 @@
+{
+  "collections": [
+    {
+      "id": "no2-monthly-diff",
+      "title": "NO\u2082 (Diff)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00+00:00",
+              "2022-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "This layer shows changes in nitrogen dioxide (NO\u2082) levels. Redder colors indicate increases in NO\u2082. Bluer colors indicate lower levels of NO\u2082. Missing pixels indicate areas of no data most likely associated with cloud cover or snow."
+    },
+    {
+      "id": "climdex-tmaxxf-access-cm2-ssp126",
+      "title": "CLIMDEX ACCESS CM2 SSP125 tmaxXF",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00+00:00",
+              "2101-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "CLIMDEX ACCESS CM2 SSP125 - variable tmaxXF"
+    },
+    {
+      "id": "snow-projections-diff-245",
+      "title": "Projections of Snow Water Equivalent (SWE) Losses - SSP2-4.5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -121.214965820313,
+              36.6650009155273,
+              -105.404987792967,
+              49.0649996948239
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-04-01T00:00:00+00:00",
+              "2077-05-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Percent-change to future SWE, relative to the historical period (1995 - 2014), simulated using the LIS framework and CMIP6 climate projections (SSP2-4.5 scenario) downscaled by NASA Earth Exchange (NEX-GDDP-CMIP6)"
+    },
+    {
+      "id": "bangladesh-landcover-2001-2020",
+      "title": "Annual land cover maps for 2001 and 2020",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              88.0259146908719,
+              20.7420999103198,
+              92.6836794390316,
+              26.6350481741438
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2001-01-01T00:00:00+00:00",
+              "2020-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "The annual land cover maps of 2001 and 2021 were captured using combined Moderate Resolution Imaging Spectroradiometer (MODIS) Annual Land Cover Type dataset (MCD12Q1 V6, dataset link: https://lpdaac.usgs.gov/products/mcd12q1v006/). The actual data product provides global land cover types at yearly intervals (2001-2020) at 500 meters with six different types of land cover classification. Among six different schemes, The International Geosphere\u2013Biosphere Programme (IGBP) land cover classification selected and further simplified to dominant land cover classes (water, urban, cropland, native vegetation) for two different years to illustrate the changes in land use and land cover of the country."
+    },
+    {
+      "id": "CMIP245-winter-median-pr",
+      "title": "Projected changes to winter (January, February, and March) cumulative daily precipitation",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -126,
+              30,
+              -104,
+              51
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-01-01T00:00:00+00:00",
+              "2085-03-31T12:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Differences in winter (January, February, and March) cumulative daily precipitation between a historical period (1995 - 2014) and multiple 20-year periods from an ensemble of CMIP6 climate projections (SSP2-4.5) downscaled by NASA Earth Exchange (NEX-GDDP-CMIP6)"
+    },
+    {
+      "id": "social-vulnerability-index-socioeconomic-nopop",
+      "title": "Social Vulnerability Index (SocioEconomic) (Masked)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -178.23333334,
+              18.908332898,
+              -66.958333785,
+              71.383332688
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2018-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Socioeconomic Status (Below Poverty, Unemployed, Income, No High School Diploma) - Percentile ranking"
+    },
+    {
+      "id": "grdi-v1-raster",
+      "title": "GRDI V1 raster",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.9999999999,
+              -55.9833333334665,
+              179.816666666766,
+              82.1833333332001
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-01-01T00:00:00+00:00",
+              "2021-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Global Gridded Relative Deprivation Index (GRDI), V1 raster"
+    },
+    {
+      "id": "CMIP245-winter-median-ta",
+      "title": "Projected changes to winter (January, February, and March) average daily air temperature",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -126,
+              30,
+              -104,
+              51
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-01-01T00:00:00+00:00",
+              "2085-03-31T12:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Differences in winter (January, February, and March) average daily air temperature between a historical period (1995 - 2014) and multiple 20-year periods from an ensemble of CMIP6 climate projections (SSP2-4.5) downscaled by NASA Earth Exchange (NEX-GDDP-CMIP6)"
+    },
+    {
+      "id": "barc-thomasfire",
+      "title": "Burn Area Reflectance Classification for Thomas Fire",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -119.727983425045,
+              34.1957260452568,
+              -118.887241425379,
+              34.7266871192995
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-12-01T00:00:00+00:00",
+              "2017-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Burn Area Reflectance Classification (BARC) from the Burned Area Emergency Response (BAER) program for Thomas fire, 2017"
+    },
+    {
+      "id": "climdex-tmaxxf-access-cm2-ssp370",
+      "title": "CLIMDEX ACCESS CM2 SSP370 tmaxXF",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00+00:00",
+              "2101-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "CLIMDEX ACCESS CM2 SSP370 - variable tmaxXF"
+    },
+    {
+      "id": "tornadoes-2024-paths",
+      "title": "NWS Tornado Tracks (Paths) from MAM 2024",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -103.501720443,
+              18.467731627,
+              -66.701720443,
+              46.592731627
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-31 00:00:00+00",
+              "2024-05-31 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Official NWS surveyed tornado tracks from March to May of 2024. Only the centerline of the tornado paths, classified by maximum EF rating."
+    },
+    {
+      "id": "MO_NPP_npp_vgpm",
+      "title": "",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180.000005086852,
+              -90.0000050865574,
+              180.000005086852,
+              89.9999974571629
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-01-01T00:00:00+00:00",
+              "2020-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Ocean Net Primary Production (NPP): https://oceancolor.gsfc.nasa.gov/atbd/npp/"
+    },
+    {
+      "id": "EPA-monthly-emissions_4B_Manure_Management",
+      "title": "Gridded 2012 EPA Methane Emissions - Manure Management (monthly)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 4B from manure management (monthly)."
+    },
+    {
+      "id": "landsat-c2l2-sr-antarctic-glaciers-thwaites",
+      "title": "Selected Landsat 7 through 9 Surface Reflectance Scenes for the Thwaites Glacier",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -112.347735091824,
+              -75.9083719676029,
+              -103.104000864639,
+              -73.4995652888588
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2001-01-16T15:07:02.414757+00:00",
+              "2022-12-20T15:16:58.089011+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Selected low-cloud-cover Landsat Collection-2 Level-2 Surface Reflectance scenes covering the Thwaites Glacier. Products from multiple missions and instruments are combined in this single collection for the purpose of visualizing RGB images. Note that the full item records are not interchangeable across instruments for purposes other than visualization and that the assets available are not the same for each instrument."
+    },
+    {
+      "id": "hls-ndvi",
+      "title": "Normalized difference vegetation index from HLS",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -82.376311139036,
+              26.3117385950749,
+              -81.9037040761012,
+              27.0358376646312
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-09-05T00:00:00+00:00",
+              "2022-09-05T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "NDVI calculated from Harmonized Landsat and Sentinel-2 Data"
+    },
+    {
+      "id": "tornadoes-2024-polygons",
+      "title": "NWS Tornado Tracks from MAM 2024",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -104.722801256742,
+              27.9971496536041,
+              -71.9717534735214,
+              46.8475294134543
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-31 00:00:00+00",
+              "2024-05-31 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Official NWS surveyed tornado tracks from March to May of 2024"
+    },
+    {
+      "id": "blizzard-merra2-10m-wind",
+      "title": "MERRA2 Reanalysis \u2013 10 Meter Wind (Select Events)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180.3125,
+              -90.4392218625214,
+              179.881096368567,
+              90.25
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1991-11-01 21:00:00+00",
+              "2016-01-23 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "MERRA2 10-meter wind speeds global reanalysis for three select blizzard events.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "blizzard-merra2-cfrac",
+      "title": "MERRA2 Reanalysis \u2013 Cloud Fraction (Select Events)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180.3125,
+              -90.4392218625214,
+              179.881096368567,
+              90.25
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1991-11-01 21:00:00+00",
+              "2016-01-23 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "MERRA2 cloud fraction global reanalysis for three select blizzard events.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "EPA-daily-emissions_5_Forest_Fires",
+      "title": "Gridded 2012 EPA Methane Emissions - Forest Fires (daily)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 5 from forest fires (daily)."
+    },
+    {
+      "id": "conus-reach",
+      "title": "Stream network across the Contiguous United States",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -124.706476622,
+              25.341586347,
+              -67.1452409229,
+              49.3289958891
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-01-01T00:00:00+00:00",
+              "2020-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "This dataset describes the Stream network across the Contiguous United States delineated using Soil and Water Assessment Tool."
+    },
+    {
+      "id": "grdi-vnl-raster",
+      "title": "GRDI VNL Constituent Raster",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.9999999999,
+              -55.9833333334665,
+              179.816666666766,
+              82.1833333332001
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-01-01T00:00:00+00:00",
+              "2020-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Global Gridded Relative Deprivation Index (GRDI) VIIRS Night Lights (VNL) Constituent raster"
+    },
+    {
+      "id": "combined_CMIP6_daily_GISS-E2-1-G_tas_kerchunk_DEMO",
+      "title": "CMIP6 Daily GISS-E2-1-G TAS Kerchunk (DEMO)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              0,
+              -59,
+              359,
+              89
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-01-01T12:00:00+00:00",
+              "2014-12-31T12:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "for zarr testing"
+    },
+    {
+      "id": "blizzard-panhandle-hooker",
+      "title": "Panhandle Hooker Snowfall Footprint",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -104.798965506,
+              33.838363906,
+              -82.001033434608,
+              49.848147664
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-01-01 00:00:00+00",
+              "1950-01-01 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Single value raster displaying the general snowfall footprint of a Panhandle Hooker type of mid-latitude cyclone.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "greenville-nightlights-tornadoes-2024",
+      "title": "Black Marble Night Lights (Greenville OH Tornado Damage)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -85.0369,
+              39.7482479057592,
+              -84.1975,
+              40.4162520942408
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-07 00:00:00+00",
+              "2024-05-08 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Black Marble night lights imagery of tornado damage at Greenville, Ohio in the spring 2024 tornado season.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "sport-lis-vsm0_100cm-percentile",
+      "title": "0-100 cm Volumetric Soil Moisture (%)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -124.94,
+              25.06,
+              -67.0700000000001,
+              52.93
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2016-09-06T00:00:00+00:00",
+              "2016-11-29T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "The NASA Short-term Prediction Research and Transition (SPoRT) Center has developed a Real-Time Land Information System (LIS). The Volumetric Soil Moisture product represents the actual moisture in a soil column from 0-100cm in depth."
+    },
+    {
+      "id": "caldor-fire-behavior",
+      "title": "Caldor Fire Behavior",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -120.613387521662,
+              38.5494028386506,
+              -119.919056581687,
+              38.9057765132864
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-08-15T00:00:00+00:00",
+              "2021-10-21T12:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "`.geojson` and `tif` files describing the progression and active fire behavior of the 2021 Caldor Fire in California via the algorithm detailed in https://www.nature.com/articles/s41597-022-01343-0. This includes an extra `.tif` file detailing the soil burn severity (SBS) conditions provided by the [Burned Area Emergency Response](https://burnseverity.cr.usgs.gov/baer/) team."
+    },
+    {
+      "id": "EPA-monthly-emissions_4C_Rice_Cultivation",
+      "title": "Gridded 2012 EPA Methane Emissions - Rice Cultivation (monthly)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 4C from rice cultivation (monthly)."
+    },
+    {
+      "id": "CMIP585-winter-median-pr",
+      "title": "Projected changes to winter (January, February, and March) cumulative daily precipitation",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -126,
+              30,
+              -104,
+              51
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-01-01T00:00:00+00:00",
+              "2085-03-31T12:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Differences in winter (January, February, and March) cumulative daily precipitation between a historical period (1995 - 2014) and multiple 20-year periods from an ensemble of CMIP6 climate projections (SSP5-8.5) downscaled by NASA Earth Exchange (NEX-GDDP-CMIP6)"
+    },
+    {
+      "id": "disalexi-etsuppression",
+      "title": "disalexi-etsuppression",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -125.350914746038,
+              29.8330505856093,
+              -108.121227596626,
+              49.0390313600847
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-01-01T00:00:00+00:00",
+              "2020-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Change in ET using DisALEXI model of OpenET observations for 2017-20 fires, calculated as the difference of ET in the immediate post-fire water year from ET in the immediate pre-fire water year. The difference is normalized by pre-fire ET and negative values denote vegetation disturbance induced by fire or by a climatological anomaly resulting in the decline in ET."
+    },
+    {
+      "id": "co2-mean",
+      "title": "CO\u2082 (Avg)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180.3125,
+              -90.25,
+              179.6875,
+              90.25
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00+00:00",
+              "2022-02-13T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "The average background concentration of carbon dioxide (CO\u2082) in our atmosphere."
+    },
+    {
+      "id": "caldor-fire-burn-severity",
+      "title": "Caldor Fire Burn Severity",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -120.613387521662,
+              38.549319926107,
+              -119.919194001,
+              38.9057765132864
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-08-15T00:00:00+00:00",
+              "2021-10-21T12:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "`.geojson` and `tif` files describing the progression and active fire behavior of the 2021 Caldor Fire in California via the algorithm detailed in https://www.nature.com/articles/s41597-022-01343-0. This includes an extra `.tif` file detailing the soil burn severity (SBS) conditions provided by the [Burned Area Emergency Response](https://burnseverity.cr.usgs.gov/baer/) team."
+    },
+    {
+      "id": "togo-agriculture-covid-19",
+      "title": "Togo Agriculture",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -0.14732,
+              6.10442729870189,
+              1.80670880520014,
+              11.13898
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-01-01 00:00:00+00",
+              "2020-12-31 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "NASA Harvest developed a national-level, satellite-derived cropland map for Togo at 10-meter resolution within a 10-day timeframe using data from the European Space Agency\u2019s Copernicus Sentinel 2 satellite, the NASA-USGS Landsat satellites, and with data from commercial partner Planet Inc. Dark purple colors indicate lower probability of cropland while lighter yellow colors indicate higher probability of cropland within each pixel."
+    },
+    {
+      "id": "nlcd-annual-conus",
+      "title": "NLCD Land Use Land Cover Classifications",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -125,
+              24,
+              -65,
+              50
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2001-01-01T00:00:00+00:00",
+              "2021-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "National Land Cover Database Land Use Land Cover Classification datasets for CONUS 2000-2021",
+      "datetime_range": "year"
+    },
+    {
+      "id": "blue-tarp-planetscope",
+      "title": "Hurricane Ida - Blue Tarps PlanetScope Image",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.2736095083169,
+              18.3041944968525,
+              -65.9762644672365,
+              30.0515401535166
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-02-11T00:00:00+00:00",
+              "2022-02-12T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Blue tarps were detected in the aftermath of Hurricane Ida using Planet Imagery. The detection algorithm involved segmenting out blue pixels from the buildings in the affected region. This collection contains PlanetScope images used for detection."
+    },
+    {
+      "id": "ecco-surface-height-change",
+      "title": "ECCO sea-surface height change from 1992 to 2017",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1992-01-01T00:00:00+00:00",
+              "2017-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Gridded global sea-surface height change from 1992 to 2017 from the Estimating the Circulation and Climate of the Ocean (ECCO) ocean state estimate. The dataset was calculated as the difference between the annual means over 2017 and 1992, from the 0.5 degree, gridded monthly mean data product available on PO.DAAC (https://podaac.jpl.nasa.gov/dataset/ECCO_L4_SSH_05DEG_MONTHLY_V4R4)."
+    },
+    {
+      "id": "EPA-monthly-emissions_1A_Combustion_Stationary",
+      "title": "Gridded 2012 EPA Methane Emissions - Stationary Combustion (monthly)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Stationary (non-mobile) emissions from sector 1A,  including boilers, heaters, furnaces, kilns, ovens, flares, thermal oxidizers, dryers, and any other equipment or machinery that combusts carbon bearing fuels or waste stream materials."
+    },
+    {
+      "id": "grdi-vnl-slope-raster",
+      "title": "GRDI VNL Slope Constituent Raster",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.9999999999,
+              -55.9833333334665,
+              179.816666666766,
+              82.1833333332001
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2020-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Global Gridded Relative Deprivation Index (GRDI) VIIRS Night Lights (VNL) Slope Constituent raster"
+    },
+    {
+      "id": "recovery-proxy-maps-covid-19",
+      "title": "Recovery Proxy Maps",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -122.953348665,
+              -7.33562199617271,
+              140.819711775045,
+              51.424290027
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-01-01T00:00:00+00:00",
+              "2020-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Recovery Proxy Maps show areas with the greatest increase in car activity shaded in orange. Darker orange indicates areas of greater change."
+    },
+    {
+      "id": "eis_fire_perimeter",
+      "title": "Fire Perimeters",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -171.791110603,
+              18.91619,
+              -66.96466,
+              71.3577635769
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "description": "Perimeter of cumulative fire-area estimated from VIIRs detections"
+    },
+    {
+      "id": "tornadoes-2024-dow-rhohv-greenfield",
+      "title": "DOW7 Correlation Coefficient (Greenfield, IA)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -94.5,
+              41.275,
+              -94.4,
+              41.325
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-21 00:00:00+00",
+              "2024-05-21 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Correlation Coefficient (rhoHV) collected by DOW7 from the Greenfield, Iowa EF-4 tornado on May 21, 2024 at 20:41:08."
+    },
+    {
+      "id": "EPA-annual-emissions_1A_Combustion_Mobile",
+      "title": "Gridded 2012 EPA Methane Emissions - Mobile Combustion",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Mobile emissions from sector 1A, including on-road and non-road vehicles, waterborne, rail, and air."
+    },
+    {
+      "id": "fldas-soil-moisture-anomalies",
+      "title": "FLDAS Surface Soil Moisture Anomalies",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -60,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1982-01-01T00:00:00+00:00",
+              "2023-07-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "A 10 km global data product with 40 years of monthly soil moisture anomalies for food and water security monitoring from the Famine Early Warning System Network (FEWS NET) Land Data Assimilation System"
+    },
+    {
+      "id": "lakeview-nightlights-tornadoes-2024",
+      "title": "Black Marble Night Lights (Lakeview OH Tornado Damage; Difference)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -84.2954,
+              40.2012736822002,
+              -83.5761253628725,
+              40.6912263177999
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-03-14 00:00:00+00",
+              "2024-03-14 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Black Marble night lights imagery of tornado damage at Lakeview, Ohio in the spring 2024 tornado season.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "no2-monthly",
+      "title": "NO\u2082",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2016-01-01T00:00:00+00:00",
+              "2022-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Darker colors indicate higher nitrogen dioxide (NO\u2082) levels and more activity. Lighter colors indicate lower levels of NO\u2082 and less activity. Missing pixels indicate areas of no data most likely associated with cloud cover or snow."
+    },
+    {
+      "id": "hls-l30-002-ej-reprocessed",
+      "title": "HLSL30.002 Environmental Justice Events",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.932637,
+              17.961538,
+              -65.110098,
+              30.71627
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-06-06T14:43:41.335694+00:00",
+              "2021-10-21T16:32:32.165563+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "A subset of HLS L30 data to support visualization of specific events. Read more about the source data on the NASA CMR Landing page: https://cmr.earthdata.nasa.gov/search/concepts/C2021957295-LPCLOUD.html"
+    },
+    {
+      "id": "social-vulnerability-index-housing-nopop",
+      "title": "Social Vulnerability Index (Housing) (Masked)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -178.23333334,
+              18.908332898,
+              -66.958333785,
+              71.383332688
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2018-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Housing Type & Transportation (Multi-Unit Structures, Mobile Homes, Crowding, No Vehicle, Group Quarters) - Percentile ranking"
+    },
+    {
+      "id": "houston-ndvi",
+      "title": "Houston NDVI: decadal average",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -97.0000843792259,
+              27.9986558557065,
+              -93.9997113302667,
+              31.009709499642
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2019-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "MODIS-calculated Normalized Difference Vegetation Index (NDVI) over the Houston metro area, decadally averaged."
+    },
+    {
+      "id": "climdex-tmaxxf-access-cm2-ssp585",
+      "title": "CLIMDEX ACCESS CM2 SSP585 tmaxXF",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00+00:00",
+              "2101-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "CLIMDEX ACCESS CM2 SSP585 - variable tmaxXF"
+    },
+    {
+      "id": "EPA-annual-emissions_1A_Combustion_Stationary",
+      "title": "Gridded 2012 EPA Methane Emissions - Stationary Combustion",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Stationary (non-mobile) emissions from sector 1A,  including boilers, heaters, furnaces, kilns, ovens, flares, thermal oxidizers, dryers, and any other equipment or machinery that combusts carbon bearing fuels or waste stream materials."
+    },
+    {
+      "id": "EPA-annual-emissions_1B1a_Abandoned_Coal",
+      "title": "Gridded 2012 EPA Methane Emissions - Abandoned Coal Mines",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 1B1a from abandoned coal mines."
+    },
+    {
+      "id": "tornadoes-2024-dow-zdr-harlan",
+      "title": "DOW7 Differential Reflectivity (Harlan, IA)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -95.42,
+              41.62,
+              -95.3,
+              41.72
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-04-26 00:00:00+00",
+              "2024-04-26 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Differential Reflectivity values collected by DOW7 from the Harlan, Iowa EF-3 tornado on April 26, 2024 at 23:08:12."
+    },
+    {
+      "id": "soil-texture",
+      "title": "ISRIC World Soil Texture Classification",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -56.0008103940606,
+              179.999942400156,
+              83.999167206
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-01-01 00:00:00+00",
+              "2017-01-01 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "ISRIC World Soil Texture Classification at the surface level. Broken into 12 classes of 1:Cl, 2:SiCl, 3:SaCl, 4:ClLo, 5:SiClLo, 6:SaClLo, 7:Lo, 8:SiLo, 9:SaLo, 10:Si, 11:LoSa, 12:Sa.",
+      "datetime_range": "year"
+    },
+    {
+      "id": "campfire-albedo-wsa-diff",
+      "title": "Camp Fire Domain: MODIS WSA Albedo Difference",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -121.780111501934,
+              39.5983095141049,
+              -121.353411721609,
+              39.8999475605016
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00+00:00",
+              "2022-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "MODIS LST Day difference from a three-year average of 2015 to 2018 subtracted from a three-year average of 2019-2022. These tri-annual averages represent periods before and after the fire."
+    },
+    {
+      "id": "EPA-annual-emissions_1B1a_Coal_Mining_Surface",
+      "title": "Gridded 2012 EPA Methane Emissions - Surface Coal Mines",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 1B1a from surface coal mining."
+    },
+    {
+      "id": "lis-tws-nonstationarity-index",
+      "title": "Global TWS Non-Stationarity Index",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.95,
+              -59.95,
+              179.95,
+              89.95
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2003-01-01T00:00:00+00:00",
+              "2020-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "The global Terrestrial Water Storage (TWS) non-stationarity index integrates the trend, seasonal shifts, and variability change of TWS for the period of 2003 - 2020. TWS is derived by jointly assimilating the MODIS Leaf Area Index, the ESA CCI surface soil moisture, and the GSFC GRACE mascon-based TWS anomalies into the Noah-MP land surface model within the NASA Land Information System (LIS) at 10 km spatial resolution forced by the combination of MERRA2 and IMERG meteorological fields. The smaller the non-stationarity index is, the more the water cycle is under a non-stationary process. Glaciers and Greenland are excluded from the analysis."
+    },
+    {
+      "id": "EPA-monthly-emissions_1B2b_Natural_Gas_Production",
+      "title": "Gridded 2012 EPA Methane Emissions - Natural Gas Production (monthly)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Non-combustion emissions from sector 1B2b for natural gas production (monthly)."
+    },
+    {
+      "id": "EPA-annual-emissions_6D_Composting",
+      "title": "Gridded 2012 EPA Methane Emissions - Composting",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 6D from composting."
+    },
+    {
+      "id": "tornadoes-2024-dow-sw-harlan",
+      "title": "DOW7 Spectrum Width (Harlan, IA)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -95.42,
+              41.62,
+              -95.3,
+              41.72
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-04-26 00:00:00+00",
+              "2024-04-26 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Spectrum Width values (m/s) from the EF-3 Harlan, IA tornado on April 26, 2024 collected by DOW7. Scan taken at 23:08:12."
+    },
+    {
+      "id": "blizzard-merra2-mslp",
+      "title": "MERRA2 Reanalysis \u2013 Mean Sea Level Pressure (Select Events)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180.3125,
+              -90.4392218625214,
+              179.881096368567,
+              90.25
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1991-11-01 21:00:00+00",
+              "2016-01-23 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "MERRA2 mean sea level pressure (MSLP) global reanalysis for three select blizzard events.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "blizzard-count",
+      "title": "Blizzard Count 1950-2021",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -110.6,
+              34.7,
+              -66.7,
+              49.6
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-12-31T00:00:00+00:00",
+              "2021-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Nearest neighbor interpolation of NCEI Storm Events Database confirmed blizzard reports from 1950-2021 in the United States, clipped to the Northern Plains, Midwest, and Northeast.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "frp-max-thomasfire",
+      "title": "Maximum Fire Radiative Power for Thomas Fire",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -119.727983425045,
+              34.1957260452568,
+              -118.887241425379,
+              34.7266871192995
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-12-01T00:00:00+00:00",
+              "2017-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Maximum Fire Radiative Power per 12hr fire line segment for Thomas fire of 2017"
+    },
+    {
+      "id": "slowdown-proxy-covid-19-changing-landscapes",
+      "title": "Slowdown Proxy Maps",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -122.953348665,
+              33.7119472288983,
+              116.681986117848,
+              51.424290027
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-01-01T00:00:00+00:00",
+              "2020-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Slowdown Proxy Maps show areas with the greatest reduction in car activity shaded in blue. Darker blues indicate areas of greater change."
+    },
+    {
+      "id": "tornadoes-2024-dow-vg-greenfield",
+      "title": "DOW7 Velocity (Ground; Greenfield, IA)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -94.5,
+              41.275,
+              -94.4,
+              41.325
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-21 00:00:00+00",
+              "2024-05-21 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Ground-based Velocity values (m/s) collected by DOW7 from the Greenfield, Iowa EF-4 tornado on May 21, 2024 at 20:41:08."
+    },
+    {
+      "id": "EPA-annual-emissions_1B1a_Coal_Mining_Underground",
+      "title": "Gridded 2012 EPA Methane Emissions - Underground Coal Mines",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 1B1a from underground coal mining."
+    },
+    {
+      "id": "social-vulnerability-index-housing",
+      "title": "Social Vulnerability Index (Housing)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -178.23333334,
+              18.908332898,
+              -66.958333785,
+              71.383332688
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2018-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Housing Type & Transportation (Multi-Unit Structures, Mobile Homes, Crowding, No Vehicle, Group Quarters) - Percentile ranking"
+    },
+    {
+      "id": "darnah-flood",
+      "title": "False Color Pre and Post Flood",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              22.0638412312993,
+              32.429359161149,
+              23.2563684195765,
+              33.4349091884243
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-09-07 00:00:00+00",
+              "2023-09-22 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "HLS False color using NIR, SWIR, and Red for the 2023 Darnah Flood."
+    },
+    {
+      "id": "snow-projections-median-585",
+      "title": "Projections of Snow Water Equivalent (SWE) - SSP5-8.5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -121.214965820313,
+              36.6650009155273,
+              -105.404987792967,
+              49.0649996948239
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-04-01T00:00:00+00:00",
+              "2077-05-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Historical (1995 - 2014) and future SWE simulated using the LIS framework and CMIP6 climate projections (SSP5-8.5 scenario) downscaled by NASA Earth Exchange (NEX-GDDP-CMIP6)"
+    },
+    {
+      "id": "nceo_africa_2017",
+      "title": "NCEO Africa Aboveground Woody Biomass 2017",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -18.2735295095593,
+              -35.0540590169119,
+              51.8642329286406,
+              37.7310385635882
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-01-01T00:00:00+00:00",
+              "2017-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "The NCEO Africa Aboveground Woody Biomass (AGB) map for the year 2017 at 100 m spatial resolution was developed using a combination of LiDAR, Synthetic Aperture Radar (SAR) and optical based data. This product was developed by the UK\u2019s National Centre for Earth Observation (NCEO) through the Carbon Cycle and Official Development Assistance (ODA) programmes."
+    },
+    {
+      "id": "blue-tarp-detection",
+      "title": "Hurricane Ida - Detected Blue Tarps",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.2736010692782,
+              18.3041944968525,
+              -65.9762644672365,
+              30.051523577306
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-02-11T00:00:00+00:00",
+              "2022-02-12T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Blue tarps were detected in the aftermath of Hurricane Ida using Planet Imagery. The detection algorithm involved segmenting out blue pixels from the buildings in the affected region."
+    },
+    {
+      "id": "nightlights-hd-1band",
+      "title": "Black Marble High Definition Nightlights 1 band Dataset",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.3037818244749,
+              17.9121389944509,
+              -65.5747876258419,
+              30.0717707270595
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-07-21T00:00:00+00:00",
+              "2021-08-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "The High Definition Nightlights dataset is processed to eliminate light sources, including moonlight reflectance and other interferences. Darker colors indicate fewer night lights and less activity. Lighter colors indicate more night lights and more activity."
+    },
+    {
+      "id": "modis_mosaic-cyclone-beryl",
+      "title": "Brightness Temperature (Band 31)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -102.811694915254,
+              6.19511548655812,
+              -13.3405084745763,
+              49.1
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-06-26 00:00:00+00",
+              "2024-07-11 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "The MODIS Level-1B data set contains calibrated and geolocated at-aperture radiances for 36 discrete bands located in the 0.4 \u00b5m to 14.4 \u00b5m region of the electromagentic spectrum. These data are generated from MODIS Level-1A scans of raw radiance, and in the process are converted to geophysical units of W/(m2 \u00b5m sr). In addition, the Bidirectional Reflectance Distribution Function (BRDF) may be determined for the solar reflective bands (1-19, 26) through knowledge of the solar irradiance (e.g., determined from MODIS solar diffuser data, and from the target illumination geometry). Additional data are provided including quality flags, error estimates and calibration data.",
+      "product_level": "L1b",
+      "temporal_frequency": "five minutes"
+    },
+    {
+      "id": "burma-eq-planet-post",
+      "title": "PlanetScope Satellite Imagery (2025 Burma Earthquake - Post)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              95.9391904396088,
+              21.7899270749332,
+              96.3274033477861,
+              22.1766551659898
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-03-29 00:00:00+00",
+              "2025-03-29 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "TrueColor RGB commercial satellite imagery from Planet Labs of the Mandalay, Burma area from after the 2025 earthquake. This data was made available through the NASA Commercial Satellite Data Acquisition (CSDA) Program.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "tornadoes-2024-dow-refl-harlan",
+      "title": "DOW7 Reflectivity (Harlan, IA)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -95.42,
+              41.62,
+              -95.3,
+              41.72
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-04-26 00:00:00+00",
+              "2024-04-26 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Horizontal Reflectivity values (dBZ) collected by DOW7 from the Harlan, Iowa EF-3 tornado on April 26, 2024 at 23:08:12."
+    },
+    {
+      "id": "darnah-gpm-daily",
+      "title": "GPM IMERG data of 2023 Medicane Daniel",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -10.0611311821386,
+              14.9120337163841,
+              45.005595734388,
+              48.5090253424542
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-09-04 00:00:00+00",
+              "2023-09-16 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": " GPM IMERG data taken daily and aggregated throughout the life of 2023 Medicane Daniel "
+    },
+    {
+      "id": "campfire-lst-day-diff",
+      "title": "Camp Fire Domain: MODIS LST Day Difference",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -121.784603078473,
+              39.5948346743054,
+              -121.353411721495,
+              39.8999475605925
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00+00:00",
+              "2022-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "MODIS WSA Albedo difference from a three-year average of 2015 to 2018 subtracted from a three-year average of 2019-2022. These tri-annual averages represent periods before and after the fire."
+    },
+    {
+      "id": "tornadoes-2024-dow-rhohv-harlan",
+      "title": "DOW7 Correlation Coefficient (Harlan, IA)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -95.42,
+              41.62,
+              -95.3,
+              41.72
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-04-26 00:00:00+00",
+              "2024-04-26 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Correlation Coefficient values from the EF-3 Harlan, IA tornado on April 26, 2024 collected by DOW7. Scan taken at 23:08:12."
+    },
+    {
+      "id": "EPA-annual-emissions_1B2b_Natural_Gas_Processing",
+      "title": "Gridded 2012 EPA Methane Emissions - Natural Gas Processing",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Non-combustion emissions from sector 1B2b for natural gas processing."
+    },
+    {
+      "id": "grdi-cdr-raster",
+      "title": "GRDI CDR Constituent Raster",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.9999999999,
+              -55.9833333334665,
+              179.816666666766,
+              82.1833333332001
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-01-01T00:00:00+00:00",
+              "2010-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Global Gridded Relative Deprivation Index (GRDI) Child Dependency Ratio (CDR) Constituent raster"
+    },
+    {
+      "id": "hls-s30-002-ej-reprocessed",
+      "title": "HLSS30.002 Environmental Justice Events",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.932637,
+              17.963773,
+              -65.110098,
+              30.71627
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-07-12T15:07:20.450000+00:00",
+              "2021-10-27T16:55:17.997700+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "A subset of HLS S30 data to support visualization of specific events. Read more about the source data on the NASA CMR Landing page: https://cmr.earthdata.nasa.gov/search/concepts/C2021957295-LPCLOUD.html"
+    },
+    {
+      "id": "EPA-annual-emissions_1B2b_Natural_Gas_Production",
+      "title": "Gridded 2012 EPA Methane Emissions - Natural Gas Production",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Non-combustion emissions from sector 1B2b for natural gas production."
+    },
+    {
+      "id": "hls-ndvi-difference",
+      "title": "HLS-derived NDVI difference for Assessing Impacts from Hurricane Iann",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -82.376311139036,
+              26.3117385950749,
+              -81.9037040761012,
+              27.0358376646312
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-09-30 00:00:00+00",
+              "2022-09-30 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Difference in NDVI calculated from Harmonized Landsat and Sentinel-2 Data for September 5th and September 30th, 2022"
+    },
+    {
+      "id": "tornadoes-2024-dow-v-harlan",
+      "title": "DOW7 Velocity (Ground; Harlan, IA)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -95.42,
+              41.62,
+              -95.3,
+              41.72
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-04-26 00:00:00+00",
+              "2024-04-26 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Velocities (m/s) of the EF-3 Harlan, IA tornado on April 26, 2024 collected by DOW7. Scan taken at 23:08:12.."
+    },
+    {
+      "id": "hls-entropy-difference",
+      "title": "HLS-derived entropy difference for Assessing impacts from Hurricane Ian",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -82.376311139036,
+              26.3117385950749,
+              -81.9037040761012,
+              27.0358376646312
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-09-30 00:00:00+00",
+              "2022-09-30 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Entropy difference calculated from Harmonized Landsat and Sentinel-2 Data for September 5th and September 30th, 2022 "
+    },
+    {
+      "id": "grdi-filled-missing-values-count",
+      "title": "GRDI Filled Missing Values Count",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -55.9833333333333,
+              179.816666666667,
+              82.1833333333333
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-01-01T00:00:00+00:00",
+              "2021-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Global Gridded Relative Deprivation Index (GRDI) raster showing count of constituent inputs that were filled in per cell using the Fill Missing Values tool."
+    },
+    {
+      "id": "EPA-annual-emissions_1B2b_Natural_Gas_Transmission",
+      "title": "Gridded 2012 EPA Methane Emissions - Natural Gas Transmission",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Non-combustion emissions from sector 1B2b for natural gas transmission."
+    },
+    {
+      "id": "damage_probability_2022-10-03",
+      "title": "Damage Probability Derived from UCONN GERs Lab After Hurricane Ian",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -82.376311139036,
+              26.3117385950749,
+              -81.5589711806718,
+              27.0376515475538
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-10-03 00:00:00+00",
+              "2022-10-03 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Damage Probability Derived from UCONN GERs Lab After Hurricane Ian."
+    },
+    {
+      "id": "campfire-lst-night-diff",
+      "title": "Camp Fire Domain: MODIS LST Night Difference",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -121.784603078473,
+              39.5948346743054,
+              -121.353411721495,
+              39.8999475605925
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00+00:00",
+              "2022-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "MODIS LST Night difference from a three-year average of 2015 to 2018 subtracted from a three-year average of 2019-2022. These tri-annual averages represent periods before and after the fire."
+    },
+    {
+      "id": "social-vulnerability-index-minority-nopop",
+      "title": "Social Vulnerability Index (Minority) (Masked)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -178.23333334,
+              18.908332898,
+              -66.958333785,
+              71.383332688
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2018-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Minority Status & Language (Minority, Speaks English \u201cLess than Well\u201d) - Percentile ranking"
+    },
+    {
+      "id": "viirs_mosaic-cyclone-beryl",
+      "title": "Brightness Temperature (Band I5)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -102.813013124825,
+              6.19258468111077,
+              -13.3463836917062,
+              48.6
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-06-26 00:00:00+00",
+              "2024-07-09 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "The VIIRS Brightness Temperature (Band I5, Day) layer is the brightness temperature, measured in Kelvin (K), calculated from the top-of-the-atmosphere radiances. It does not provide an accurate temperature of either clouds or the land surface, but it does show relative temperature differences which can be used to distinguish features both in clouds and over clear land. It can be used to distinguish land, sea ice, and open water over the polar regions during winter (in cloudless areas). The VIIRS Brightness Temperature layer is calculated from VIIRS Calibrated Radiances (VNP02) and is available from the joint NASA/NOAA Suomi National Polar orbiting Partnership (Suomi NPP) satellite. The sensor resolution is 375m, the imagery resolution is 250m, and the temporal resolution is daily.",
+      "product_level": "L1b",
+      "temporal_frequency": "six minutes"
+    },
+    {
+      "id": "social-vulnerability-index-overall",
+      "title": "Social Vulnerability Index (Overall)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -178.23333334,
+              18.908332898,
+              -66.958333785,
+              71.383332688
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2018-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Overall Social Vulnerability Index - Percentile ranking"
+    },
+    {
+      "id": "OMI_trno2-COG",
+      "title": "OMI_trno2 - 0.10 x 0.10 Annual as Cloud-Optimized GeoTIFFs (COGs)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2005-01-01T00:00:00+00:00",
+              "2022-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "OMI_trno2 - 0.10 x 0.10 Annual as Cloud-Optimized GeoTIFFs (COGs)"
+    },
+    {
+      "id": "grdi-imr-raster",
+      "title": "GRDI IMR Constituent Raster",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.9999999999,
+              -55.9833333334665,
+              179.816666666439,
+              82.1833333330745
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00+00:00",
+              "2015-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Global Gridded Relative Deprivation Index (GRDI) Infant Mortality Rate (IMR) Constituent raster"
+    },
+    {
+      "id": "tornadoes-2024-dow-vmax-greenfield",
+      "title": "Derived Maximum Velocity (Greenfield, IA; DOW7)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -94.4784,
+              41.2908000000001,
+              -94.416,
+              41.3198000000001
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-21 00:00:00+00",
+              "2024-05-21 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Derived maximum velocities of the EF-4 Greenfield, IA tornado on May 21, 2024 collected by DOW7. Converted from m/s to mph."
+    },
+    {
+      "id": "social-vulnerability-index-socioeconomic",
+      "title": "Social Vulnerability Index (SocioEconomic)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -178.23333334,
+              18.908332898,
+              -66.958333785,
+              71.383332688
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2018-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Socioeconomic Status (Below Poverty, Unemployed, Income, No High School Diploma) - Percentile ranking"
+    },
+    {
+      "id": "EPA-annual-emissions_2C2_Ferroalloy_Production",
+      "title": "Gridded 2012 EPA Methane Emissions - Ferroalloy Production",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 2C2 from ferroalloy production."
+    },
+    {
+      "id": "mtbs-burn-severity",
+      "title": "MTBS Burn Severity",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -127.162380577243,
+              23.8210312781551,
+              -71.1350680530878,
+              49.0885027185009
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2016-01-01T00:00:00+00:00",
+              "2020-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Burn severities and extents of fires from Monitoring Trends in Burn Severity (MTBS) program during the years 2016-2020 over Western US"
+    },
+    {
+      "id": "EPA-annual-emissions_4A_Enteric_Fermentation",
+      "title": "Gridded 2012 EPA Methane Emissions - Enteric Fermentation",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 4A from enteric fermentation (fermentation that takes place in the digestive systems of animals)."
+    },
+    {
+      "id": "ps-greenfield-post-tornadoes-2024",
+      "title": "Planet TrueColor Satellite Imagery (Greenfield IA Tornado Damage - Post)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -94.7835515469877,
+              41.1269649687823,
+              -94.3507332170628,
+              41.4643872836867
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-22 00:00:00+00",
+              "2024-05-22 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Commercial SmallSat PlanetScope Satellite Visible Imagery of select locations that experienced tornado damage during the spring of 2024 in the United States. The location in this collection is Greenfield, Iowa after the tornado strike.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "social-vulnerability-index-household-nopop",
+      "title": "Social Vulnerability Index (Household) (Masked)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -178.23333334,
+              18.908332898,
+              -66.958333785,
+              71.383332688
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2018-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Household Composition & Disability (Aged 65 or Older, Aged 17 or Younger, Civilian with a Disability, Single-Parent Households) - Percentile ranking"
+    },
+    {
+      "id": "campfire-nlcd",
+      "title": "Camp Fire Domain: Land Cover",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -125,
+              40,
+              -122,
+              45
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2016-01-01T00:00:00+00:00",
+              "2019-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "NLCD-derived land use-land cover for 2016 over the Camp Fire burn scar domain. Displays colors 0-255 from a lookup table for land cover type (ex: reds = urbanized)."
+    },
+    {
+      "id": "EPA-annual-emissions_4B_Manure_Management",
+      "title": "Gridded 2012 EPA Methane Emissions - Manure Management",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 4B from manure management."
+    },
+    {
+      "id": "modis-annual-lai-2003-2020",
+      "title": "Annual LAI maps for 2003 and 2021 (Bangladesh)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              88.0259146908719,
+              20.7420999103198,
+              92.6836794390316,
+              26.6350481741438
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2003-01-01 00:00:00+00",
+              "2020-12-31 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "The annual median Leaf Area Index (LAI) maps of 2003 and 2021 were captured using combined Moderate Resolution Imaging Spectroradiometer (MODIS) Level 4 dataset (MCD15A3H Version 6.1, dataset link: https://modis.gsfc.nasa.gov/data/dataprod/mod15.php). The actual dataset represents one-sided green leaf area per unit ground area at 500 meters spatial resolution and provides information at every 4 days. Annual median of the LAI datasets were calculated for both the years of 2003 and 2021 to illustrate the difference in vegetation cover."
+    },
+    {
+      "id": "tornadoes-2024-dow-refl-greenfield",
+      "title": "DOW7 Reflectivity (Greenfield, IA)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -94.5,
+              41.275,
+              -94.4,
+              41.325
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-21 00:00:00+00",
+              "2024-05-21 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Horizontal reflectivity values (dBZ) from the EF-4 Greenfield, IA tornado on May 21, 2024 collected by DOW7. Scan taken at 20:41:08."
+    },
+    {
+      "id": "snow-projections-median-245",
+      "title": "Projections of Snow Water Equivalent (SWE) - SSP2-4.5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -121.214965820313,
+              36.6650009155273,
+              -105.404987792967,
+              49.0649996948239
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-04-01T00:00:00+00:00",
+              "2077-05-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Historical (1995 - 2014) and future SWE simulated using the LIS framework and CMIP6 climate projections (SSP2-4.5 scenario) downscaled by NASA Earth Exchange (NEX-GDDP-CMIP6)"
+    },
+    {
+      "id": "oco2-geos-l3-daily",
+      "title": "Gridded Daily OCO-2 Carbon Dioxide assimilated dataset",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "description": "The OCO-2 mission provides the highest quality space-based XCO2 retrievals to date. However, the instrument data are characterized by large gaps in coverage due to OCO-2\u2019s narrow 10-km ground track and an inability to see through clouds and thick aerosols. This global gridded dataset is produced using a data assimilation technique commonly referred to as state estimation within the geophysical literature. Data assimilation synthesizes simulations and observations, adjusting the state of atmospheric constituents like CO2 to reflect observed values, thus gap-filling observations when and where they are unavailable based on previous observations and short transport simulations by GEOS. Compared to other methods, data assimilation has the advantage that it makes estimates based on our collective scientific understanding, notably of the Earth's carbon cycle and atmospheric transport. OCO-2 GEOS (Goddard Earth Observing System) Level 3 data are produced by ingesting OCO-2 L2 retrievals every 6 hours with GEOS CoDAS, a modeling and data assimilation system maintained by NASA's Global Modeling and Assimilation Office (GMAO). GEOS CoDAS uses a high-performance computing implementation of the Gridpoint Statistical Interpolation approach for solving the state estimation problem. GSI finds the analyzed state that minimizes the three-dimensional variational (3D-Var) cost function formulation of the state estimation problem."
+    },
+    {
+      "id": "grdi-shdi-raster",
+      "title": "GRDI SHDI Constituent Raster",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.9999999999,
+              -55.9833333334665,
+              179.816666666766,
+              82.1833333332001
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-01-01T00:00:00+00:00",
+              "2018-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Global Gridded Relative Deprivation Index (GRDI) Subnational Human Development Index (SHDI) Constituent raster"
+    },
+    {
+      "id": "social-vulnerability-index-minority",
+      "title": "Social Vulnerability Index (Minority)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -178.23333334,
+              18.908332898,
+              -66.958333785,
+              71.383332688
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2018-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Minority Status & Language (Minority, Speaks English \u201cLess than Well\u201d) - Percentile ranking"
+    },
+    {
+      "id": "houston-urbanization",
+      "title": "New Urbanization from 2001-2019 (NLCD)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -97.0002640422828,
+              27.9998518630912,
+              -93.999980824852,
+              31.0087810073324
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2001-01-01T00:00:00+00:00",
+              "2019-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "New urbanization compared between 2001 and 2019 NLCD datasets. This is a national map at 30-meter resolution."
+    },
+    {
+      "id": "EPA-annual-emissions_4C_Rice_Cultivation",
+      "title": "Gridded 2012 EPA Methane Emissions - Rice Cultivation",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 4C from rice cultivation."
+    },
+    {
+      "id": "tornadoes-2024-dow-sw-greenfield",
+      "title": "DOW7 Spectrum Width (Greenfield, IA)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -94.5,
+              41.275,
+              -94.4,
+              41.325
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-21 00:00:00+00",
+              "2024-05-21 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Spectrum Width values (m/s) from the EF-4 Greenfield, IA tornado on May 21, 2024 collected by DOW7. Scan taken at 20:41:08."
+    },
+    {
+      "id": "OMSO2PCA-COG",
+      "title": "OMI/Aura Sulfur Dioxide (SO2) Total Column L3 1 day Best Pixel in 0.25 degree x 0.25 degree V3 as Cloud-Optimized GeoTIFFs (COGs)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2005-01-01T00:00:00+00:00",
+              "2021-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "OMI/Aura Sulfur Dioxide (SO2) Total Column L3 1 day Best Pixel in 0.25 degree x 0.25 degree V3 as Cloud-Optimized GeoTIFFs (COGs)"
+    },
+    {
+      "id": "EPA-annual-emissions_4F_Field_Burning",
+      "title": "Gridded 2012 EPA Methane Emissions - Field Burning",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 4F from agricultural field burning."
+    },
+    {
+      "id": "snow-projections-diff-585",
+      "title": "Projections of Snow Water Equivalent (SWE) Losses - SSP5-8.5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -121.214965820313,
+              36.6650009155273,
+              -105.404987792967,
+              49.0649996948239
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-04-01T00:00:00+00:00",
+              "2077-05-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Percent-change to future SWE, relative to the historical period (1995 - 2014), simulated using the LIS framework and CMIP6 climate projections (SSP5-8.5 scenario) downscaled by NASA Earth Exchange (NEX-GDDP-CMIP6)"
+    },
+    {
+      "id": "EPA-monthly-emissions_1B2a_Petroleum",
+      "title": "Gridded 2012 EPA Methane Emissions - Petroleum (monthly)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Non-combustion emissions from sector 1B2a for petroleum systems, including production, transportation, and refining (monthly)."
+    },
+    {
+      "id": "nldas2",
+      "title": "NLDAS-2 Precipitation Forcing Dataset",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -168.980006716476,
+              7.01999996155959,
+              -51.9399914524698,
+              72.0600009158208
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2003-01-01 00:00:00+00",
+              "2021-12-31 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "NLDAS-2 provides a fine-scale (1 km) meteorological forcing (precipitation) in both retrospective and near real-time over North and Central America, including Alaska, Hawaii, and Puerto Rico, by leveraging high-quality gauge, satellite, and model datasets through advanced data assimilation methods. Read more: https://ldas.gsfc.nasa.gov/nldas/v2"
+    },
+    {
+      "id": "social-vulnerability-index-household",
+      "title": "Social Vulnerability Index (Household)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -178.23333334,
+              18.908332898,
+              -66.958333785,
+              71.383332688
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2018-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Household Composition & Disability (Aged 65 or Older, Aged 17 or Younger, Civilian with a Disability, Single-Parent Households) - Percentile ranking"
+    },
+    {
+      "id": "grdi-v1-built",
+      "title": "GRDI BUILT Constituent Raster",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.9999999999,
+              -55.9833333334665,
+              179.816666666766,
+              82.1833333332001
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00+00:00",
+              "2021-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Global Gridded Relative Deprivation Index (GRDI) built-up area (BUILT) Constituent raster, indexed 0 to 100"
+    },
+    {
+      "id": "EPA-annual-emissions_2B5_Petrochemical_Production",
+      "title": "Gridded 2012 EPA Methane Emissions - Petrochemical Production",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 2B5 from petrochemical production."
+    },
+    {
+      "id": "marsh-ida",
+      "title": "Salt Marsh Classification Pre-Ida (Southern Louisiana)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.85,
+              29.03,
+              -90.06,
+              29.65
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-08-23T00:00:00+00:00",
+              "2021-09-09T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Salt Marsh Classification Pre-Ida (Southern Louisiana)"
+    },
+    {
+      "id": "nldas3",
+      "title": "NLDAS-3 Precipitation Forcing Dataset",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -168.980006716476,
+              7.01999996155959,
+              -51.9399914524698,
+              72.0600009158208
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2001-01-01 00:00:00+00",
+              "2021-12-31 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "NLDAS-3 provides a fine-scale (1 km) meteorological forcing (precipitation) in both retrospective and near real-time over North and Central America, including Alaska, Hawaii, and Puerto Rico, by leveraging high-quality gauge, satellite, and model datasets through advanced data assimilation methods. Read more: https://ldas.gsfc.nasa.gov/nldas/v3"
+    },
+    {
+      "id": "facebook_population_density",
+      "title": "Population Density Maps using satellite imagery built by Meta",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180.000416666667,
+              -55.9859722223246,
+              179.820416666956,
+              71.3306944444444
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00+00:00",
+              "2015-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Facebook high-resolution population density: Darker areas indicate higher population density areas and lighter areas indicate lower population density areas, with a 30m\u00b2 resolution."
+    },
+    {
+      "id": "tornadoes-2024-dow-zdr-greenfield",
+      "title": "DOW7 Differential Reflectivity (Greenfield, IA)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -94.5,
+              41.275,
+              -94.4,
+              41.325
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-21 00:00:00+00",
+              "2024-05-21 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Differential Reflectivity values (dB) from the EF-4 Greenfield, IA tornado on May 21, 2024 collected by DOW7. Scan taken at 20:41:08."
+    },
+    {
+      "id": "ida-ndwi-difference",
+      "title": "NDWI Difference for Pre and Post-Hurricane Ida from PlanetScope",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.8640175003316,
+              29.0158471360576,
+              -90.0452292052029,
+              29.6627917847597
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-08-23 00:00:00+00",
+              "2021-09-09 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Normalized Difference Water Index Difference of before and after Hurricane Ida in Southern Louisiana."
+    },
+    {
+      "id": "EPA-annual-emissions_6A_Landfills_Industrial",
+      "title": "Gridded 2012 EPA Methane Emissions - Industrial Landfills",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 6A from non-municipal solid waste landfills used to to dispose of industrial solid waste."
+    },
+    {
+      "id": "houston-aod-diff",
+      "title": "Houston AOD: Difference Between 2000-2009 & 2010-2019",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -97.0090675320671,
+              27.9926756176,
+              -93.9907281774255,
+              31.0174465803571
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2019-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "MODIS-calculated Aerosol Optical Depth (AOD) difference over the Houston metro area, differenced over a time period from 2000 to 2019."
+    },
+    {
+      "id": "EPA-annual-emissions_6B_Wastewater_Treatment_Domestic",
+      "title": "Gridded 2012 EPA Methane Emissions - Domestic Wastewater Treatment",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 6B from wastewater treatment of domestic sewage."
+    },
+    {
+      "id": "ps-lakeview-winchester-tornadoes-2024",
+      "title": "Planet TrueColor Satellite Imagery (Winchester IN, Lakeview OH Tornado Damage)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -85.0537437357716,
+              40.0585277676622,
+              -83.6918069323713,
+              40.6219864389317
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-03-16 00:00:00+00",
+              "2024-03-16 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Commercial SmallSat PlanetScope Satellite Visible Imagery of select locations that experienced tornado damage during the spring of 2024 in the United States. The locations in this collection include Winchester, IN and Lakeview, OH.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "landfill-emit",
+      "title": "EMIT Landfill Plumes",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -121.1914134099,
+              32.5211561132984,
+              -96.6732855414677,
+              37.8832935061136
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-06-22T00:00:00+00:00",
+              "2023-08-25T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "EMIT landfill plumes in June and August 2023 supporting Environmental Justice"
+    },
+    {
+      "id": "houston-aod",
+      "title": "Aerosol Optical Depth (AOD)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -97.0000843792259,
+              27.9926756176,
+              -93.9997113302667,
+              31.009709499642
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2019-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "MODIS-calculated Aerosol Optical Depth (AOD) over the Houston metro area decadally averaged."
+    },
+    {
+      "id": "ida-ndvi-difference",
+      "title": "NDVI Difference for Pre and Post-Hurricane Ida from PlanetScope",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.8640175003316,
+              29.0158471360576,
+              -90.0452292052029,
+              29.6627917847597
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-08-23 00:00:00+00",
+              "2021-09-09 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Normalized Difference Vegetation Index Difference of before and after Hurricane Ida in Southern Louisiana."
+    },
+    {
+      "id": "ps-greenfield-pre-tornadoes-2024",
+      "title": "Planet TrueColor Satellite Imagery (Greenfield IA Tornado Damage - Pre)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -94.5740795237653,
+              41.209370004578,
+              -94.1741195954294,
+              41.4325080296159
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-20 00:00:00+00",
+              "2024-05-20 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Commercial SmallSat PlanetScope Satellite Visible Imagery of select locations that experienced tornado damage during the spring of 2024 in the United States. The location in this collection is Greenfield, Iowa before the tornado strike.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "lis-global-da-tws-trend",
+      "title": "Terrestrial Water Storage Trend - LIS 10km Global DA",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.950000015724,
+              -59.9822487136459,
+              179.997398050378,
+              89.9999999874719
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2003-01-01T00:00:00+00:00",
+              "2021-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Gridded trend in terrestrial water storage (theil-sen slope estimation in mm yr-1) from 10km global LIS with assimilation"
+    },
+    {
+      "id": "landsat-c2l2-sr-lakes-aral-sea",
+      "title": "Selected Landsat 7 through 9 Surface Reflectance Scenes for the Aral Sea",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              56.9984407,
+              43.5345394,
+              63.5900264,
+              47.0890105
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1986-04-10T06:12:19.278013+00:00",
+              "2023-06-20T06:40:19.342057+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Selected low-cloud-cover Landsat Collection-2 Level-2 Surface Reflectance scenes covering the Aral Sea. Products from multiple missions and instruments are combined in this single collection for the purpose of visualizing RGB images. Note that the full item records are not interchangeable across instruments for purposes other than visualization and that the assets available are not the same for each instrument."
+    },
+    {
+      "id": "IS2SITMOGR4-cog",
+      "title": "ICESat-2 L4 Monthly Gridded Sea Ice Thickness (COGs)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              31.2692707214942,
+              179.706175266478,
+              85.1889856115108
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-11-01T00:00:00+00:00",
+              "2021-04-30T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "ICESat-2 L4 Monthly Gridded Sea Ice Thickness (COGs)"
+    },
+    {
+      "id": "hls-bais2-v2",
+      "title": "HLS-calculated BAIS2 burned area",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -156.696388704021,
+              20.84204688274,
+              -156.643450040182,
+              20.9118200741068
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-08-13T00:00:00+00:00",
+              "2023-08-13T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "HLS-calculated BAIS2 burned area index from 2023-08-13 after the Lahaina fire was contained. Higher values indicate greater likelihood of scorched earth."
+    },
+    {
+      "id": "landsat-nighttime-thermal",
+      "title": "Landsat 8 Nighttime Thermal Imagery",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -156.696530704147,
+              20.8421803228494,
+              -156.643308035498,
+              20.9116865934955
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-08-08T00:00:00+00:00",
+              "2023-08-08T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Landsat-8 thermal IR data over Lahaina as the fire was active."
+    },
+    {
+      "id": "hls-swir-falsecolor-composite",
+      "title": "HLS SWIR FalseColor Composite",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -157.080064912211,
+              20.6856572494165,
+              -156.006798346232,
+              21.6921513371128
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-08-08T00:00:00+00:00",
+              "2023-08-13T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "HLS falsecolor composite imagery using Bands 12, 8A, and 4."
+    },
+    {
+      "id": "landsat-c2l2-sr-lakes-lake-balaton",
+      "title": "Selected Landsat 7 through 9 Surface Reflectance Scenes for Lake Balaton",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              15.1177824,
+              46.3745686,
+              19.0682304,
+              48.510316
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1984-09-15T09:09:32.098056+00:00",
+              "2023-05-22T07:35:18.700905+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Selected low-cloud-cover Landsat Collection-2 Level-2 Surface Reflectance scenes covering Lake Balaton. Products from multiple missions and instruments are combined in this single collection for the purpose of visualizing RGB images. Note that the full item records are not interchangeable across instruments for purposes other than visualization and that the assets available are not the same for each instrument."
+    },
+    {
+      "id": "campfire-ndvi-diff",
+      "title": "Camp Fire Domain: MODIS NDVI Difference",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -121.784603078473,
+              39.5948346743054,
+              -121.353411721495,
+              39.8999475605925
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00+00:00",
+              "2022-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "MODIS NDVI difference from a three-year average of 2015 to 2018 subtracted from a three-year average of 2019-2022. These tri-annual averages represent periods before and after the fire."
+    },
+    {
+      "id": "lis-global-da-gpp-trend",
+      "title": "Gross Primary Productivity Trend - LIS 10km Global DA",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.950000015724,
+              -59.9822487136459,
+              179.997398050378,
+              89.9999999874719
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2003-01-01T00:00:00+00:00",
+              "2021-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Gridded trend in gross primary productivity (theil-sen slope estimation in gC m-2 yr-1) from 10km global LIS with assimilation"
+    },
+    {
+      "id": "lis-global-da-gpp",
+      "title": "Gross Primary Productivity - LIS 10km Global DA",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.950000015724,
+              -59.9822487136459,
+              179.997398050378,
+              89.9999999874719
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-08-02T00:00:00+00:00",
+              "2021-12-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Gridded gross primary productivity (in g m-2 s-1) from 10km global LIS with assimilation"
+    },
+    {
+      "id": "lis-global-da-evap",
+      "title": "Evapotranspiration - LIS 10km Global DA",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.950000015724,
+              -59.9822487136459,
+              179.997398050378,
+              89.9999999874719
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-08-02T00:00:00+00:00",
+              "2021-12-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Gridded total evapotranspiration (in kg m-2 s-1) from 10km global LIS with assimilation"
+    },
+    {
+      "id": "ps-tornadoes-2024-difference",
+      "title": "Planet TrueColor Satellite Imagery Difference (Greenfield IA Tornado Damage)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -94.5740795237653,
+              41.2606685497879,
+              -94.3449736639912,
+              41.43063708942
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-21 00:00:00+00",
+              "2024-05-21 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Commercial SmallSat Planet Satellite Imagery difference of tornado damage at Greenfield, Iowa in the spring 2024 tornado season.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "lis-global-da-swe",
+      "title": "Snow Water Equivalent - LIS 10km Global DA",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.950000015724,
+              -59.9822487136459,
+              179.997398050378,
+              89.9999999874719
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-08-02T00:00:00+00:00",
+              "2021-12-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Gridded snow water equivalent (in kg m-2) from 10km global LIS with assimilation"
+    },
+    {
+      "id": "houston-lst-day",
+      "title": "Houston land surface temperature during daytime - decadal average",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -97.0000843792259,
+              27.9926756176,
+              -93.9997113302667,
+              31.009709499642
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2019-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "MODIS-calculated Land Surface Temperature (LST) Daytime over the Houston metro area, decadally averaged."
+    },
+    {
+      "id": "houston-lst-diff",
+      "title": "Houston LST (Diff)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -97.0000843792259,
+              27.9926756176,
+              -93.9997113302667,
+              31.009709499642
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2019-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Changes in decadally averaged land surface temperature (LST, daytime) in the Houston metro area. The higher the value, the larger the increase."
+    },
+    {
+      "id": "GPM_3IMERGDF",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1998-01-01T00:00:00+00:00",
+              null
+            ]
+          ]
+        }
+      },
+      "description": "\nVersion 07 is the current version of the data set. Older versions will no longer be available and have been superseded by Version 07.\n\nThe Integrated Multi-satellitE Retrievals for GPM (IMERG) IMERG is a NASA product estimating global surface precipitation rates at a high resolution of 0.1\u00b0 every half-hour beginning 2000.  It is part of the joint NASA-JAXA Global Precipitation Measurement (GPM) mission, using the GPM Core Observatory satellite as the standard to combine precipitation observations from an international constellation of satellites using advanced techniques.  IMERG can be used for global-scale applications as well as over regions with sparse or no reliable surface observations.  The fine spatial and temporal resolution of IMERG data allows them to be accumulated to the scale of the application for increased skill.  IMERG has three Runs with varying latencies in response to a range of application needs: rapid-response applications (Early Run, 4-h latency), same/next-day applications (Late Run, 14-h latency), and post-real-time research (Final Run, 3.5-month latency).  While IMERG strives for consistency and accuracy, satellite estimates of precipitation are expected to have lower skill over frozen surfaces, complex terrain, and coastal zones.  As well, the changing GPM satellite constellation over time may introduce artifacts that affect studies focusing on multi-year changes.\n\nThis dataset is the GPM Level 3 IMERG  *Final* Daily  10 x 10 km (GPM_3IMERGDF) derived from the half-hourly GPM_3IMERGHH.  The derived result represents the Final estimate of the daily mean precipitation rate in mm/day. The dataset is produced by first computing the mean precipitation rate in (mm/hour) in every grid cell, and then multiplying the result by 24.  This minimizes the possible dry bias in versions before \"07\", in the simple daily totals  for cells where less than 48 half-hourly observations are valid for the day. The latter under-sampling is very rare in the combined microwave-infrared and rain gauge  dataset, variable \"precipitation\",  and appears in higher latitudes. Thus, in most cases users of global \"precipitation\" data will not notice any difference. This correction, however, is noticeable in the high-quality microwave retrieval, variable \"MWprecipitation\", where the occurrence of less than 48 valid half-hourly samples per day is very common. The counts of the valid half-hourly samples per day have always been provided as a separate variable, and users of daily data were advised to pay close attention to that variable and use it to calculate the correct precipitation daily rates. Starting with version \"07\", this is done in production to minimize possible misinterpretations of the data. The counts are still provided in the data, but they are only given to gauge the significance of the daily rates, and reconstruct the simple totals if someone wishes to do so. \n\nThe latency of the derived *Final* Daily product depends on the delivery of the IMERG *Final* Half-Hourly product GPM_IMERGHH. Since the latter are delivered in a batch, once per month for the entire month, with up to 4 months latency, so will be the latency for the Final Daily, plus about 24 hours. Thus, e.g. the Dailies for January  can be expected to appear no earlier than April 2. \n\n\n\nThe daily mean rate (mm/day) is derived by first computing the mean precipitation rate (mm/hour) in a grid cell for the data day, and then multiplying the result by 24.  Thus, for every grid cell we have                \n\nPdaily_mean     = SUM{Pi * 1[Pi valid]} / Pdaily_cnt  * 24, i=[1,Nf]\n\nWhere:\nPdaily_cnt = SUM{1[Pi valid]}\n\nPi              - half-hourly input, in (mm/hr)\nNf              - Number of half-hourly files per day, Nf=48\n1[.]            - Indicator function; 1 when Pi is valid, 0 otherwise\nPdaily_cnt      - Number of valid retrievals in a grid cell per day.\n\nGrid cells for which Pdaily_cnt=0, are set to fill value in the Daily files.\nNote that Pi=0 is a valid value.\n\nPdaily_cnt are provided in the data files as variables \"precipitation_cnt\" and \"MWprecipitation_cnt\", for correspondingly the microwave-IR-gauge and microwave-only retrievals. They are only given to gauge the significance of the daily rates, and reconstruct the simple totals if someone wishes to do so. \n\nThere are various ways the daily error could be estimated from the source half-hourly random error (variable \"randomError\"). The daily error provided in the data files is calculated in a fashion similar to the daily mean precipitation rate. First, the mean of the squared half-hourly \"randomError\"  for the day is computed, and the resulting (mm^2/hr) is converted to (mm^2/day). Finally, square root is taken to get the result in (mm/day):\n\nPerr_daily = { SUM{ (Perr_i)^2 * 1[Perr_i valid] ) } / Ncnt_err  * 24}^0.5, i=[1,Nf]\nNcnt_err   = SUM( 1[Perr_i valid] )\n\nwhere:\nPerr_i\t\t- half-hourly input, \"randomError\", (mm/hr)\nPerr_daily\t- Magnitude of the daily error, (mm/day)\nNcnt_err\t\t- Number of valid half-hour error estimates\n\nAgain, the sum of squared \"randomError\" can be reconstructed, and other estimates can be derived using the available counts in the Daily files.\n",
+      "collection_concept_id": "C2723754864-GES_DISC"
+    },
+    {
+      "id": "ida-ndvi",
+      "title": "NDVI for Pre and Post-Hurricane Ida from PlanetScope",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.8640175003316,
+              29.0158471360576,
+              -90.0452292052029,
+              29.6627917847597
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-08-23 00:00:00+00",
+              "2021-09-09 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Normalized Difference Vegetation Index before and after Hurricane Ida in Southern Louisiana."
+    },
+    {
+      "id": "lis-global-da-qsb",
+      "title": "Subsurface Runoff - LIS 10km Global DA",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.950000015724,
+              -59.9822487136459,
+              179.997398050378,
+              89.9999999874719
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-08-02T00:00:00+00:00",
+              "2021-12-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Gridded subsurface runoff (in km m-2 s-1) from 10km global LIS with assimilation"
+    },
+    {
+      "id": "social-vulnerability-index-overall-nopop",
+      "title": "Social Vulnerability Index (Overall) (Masked)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -178.23333334,
+              18.908332898,
+              -66.958333785,
+              71.383332688
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2018-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Overall Social Vulnerability Index - Percentile ranking"
+    },
+    {
+      "id": "EPA-annual-emissions_6A_Landfills_Municipal",
+      "title": "Gridded 2012 EPA Methane Emissions - Municipal Landfills",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 6A from municipal solid waste landfills receiving household waste."
+    },
+    {
+      "id": "lis-global-da-qs",
+      "title": "Surface runoff - LIS 10km Global DA",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.950000015724,
+              -59.9822487136459,
+              179.997398050378,
+              89.9999999874719
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-08-02T00:00:00+00:00",
+              "2021-12-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Gridded surface runoff (in kg m-2 s-1) from 10km global LIS with assimilation"
+    },
+    {
+      "id": "lis-tvegsuppression",
+      "title": "Change in transpiration for 2020 fires using LIS outputs",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -125.039912009738,
+              31.9726651134772,
+              -109.401550219135,
+              49.275663827769
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-01-01T00:00:00+00:00",
+              "2020-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Change in vegetation transpiration for 2020 fires using model outputs from Land Information System (LIS) framework that synthesizes multiple remote sensing observations within the Noah-MP land surface model. Change is calculated as the difference of transpiration in the immediate post-fire water year from that in the immediate pre-fire water year. The difference is normalized by pre-fire transpiration and negative values denote vegetation disturbance induced by fire or by a climatological anomaly resulting in the decline in transpiration."
+    },
+    {
+      "id": "landsat-c2l2-sr-lakes-tonle-sap",
+      "title": "Selected Landsat 7 through 9 Surface Reflectance Scenes for Tonl\u00e9 Sap",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              102.0208449,
+              11.9586038,
+              106.3215996,
+              14.0556331
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1987-12-04T02:48:00.593038+00:00",
+              "2023-05-05T01:16:34.740068+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Selected low-cloud-cover Landsat Collection-2 Level-2 Surface Reflectance scenes covering Tonl\u00e9 Sap. Products from multiple missions and instruments are combined in this single collection for the purpose of visualizing RGB images. Note that the full item records are not interchangeable across instruments for purposes other than visualization and that the assets available are not the same for each instrument."
+    },
+    {
+      "id": "ps-barnsdall-tornadoes-2024",
+      "title": "Planet TrueColor Satellite Imagery (Barnsdall OK Tornado Damage)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -96.4157325700516,
+              36.4436531896403,
+              -96.0505630113081,
+              36.6536486031328
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-07 00:00:00+00",
+              "2024-05-07 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Commercial SmallSat PlanetScope Satellite Visible Imagery of select locations that experienced tornado damage during the spring of 2024 in the United States. The location in this collection is Barnsdall, Oklahoma.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "nightlights-hd-monthly",
+      "title": "Black Marble High Definition Nightlights Monthly Dataset",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -122.635696411133,
+              -37.08,
+              174.96,
+              54.584515
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-01-01T00:00:00+00:00",
+              "2022-03-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "The High Definition Nightlights dataset is processed to eliminate light sources, including moonlight reflectance and other interferences. Darker colors indicate fewer night lights and less activity. Lighter colors indicate more night lights and more activity."
+    },
+    {
+      "id": "ps-portage-tornadoes-2024",
+      "title": "Planet TrueColor Satellite Imagery (Portage MI Tornado Damage)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -85.7412179319808,
+              42.06689705389,
+              -85.2666303974222,
+              42.3222270379069
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-13 00:00:00+00",
+              "2024-05-13 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Commercial SmallSat PlanetScope Satellite Visible Imagery of select locations that experienced tornado damage during the spring of 2024 in the United States. The location in this collection is Portage, Michigan.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "lis-global-da-gws",
+      "title": "Groundwater Storage - LIS 10km Global DA",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.950000015724,
+              -59.9822487136459,
+              179.997398050378,
+              89.9999999874719
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-08-02T00:00:00+00:00",
+              "2021-12-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Gridded groundwater storage (in mm) from 10km global LIS with assimilation"
+    },
+    {
+      "id": "ida-ndwi",
+      "title": "NDWI for Pre and Post-Hurricane Ida from PlanetScope",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.8640175003316,
+              29.0158471360576,
+              -90.0452292052029,
+              29.6627917847597
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-08-23 00:00:00+00",
+              "2021-09-09 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Normalized Difference Water Index before and after Hurricane Ida in Southern Louisiana."
+    },
+    {
+      "id": "lis-global-da-totalprecip",
+      "title": "Total Precipitation - LIS 10km Global DA",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.950000015724,
+              -59.9822487136459,
+              179.997398050378,
+              89.9999999874719
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-01-02T00:00:00+00:00",
+              "2022-03-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Gridded total precipitation (in kg m-2 s-1) from 10km global LIS with assimilation"
+    },
+    {
+      "id": "EPA-annual-emissions_6B_Wastewater_Treatment_Industrial",
+      "title": "Gridded 2012 EPA Methane Emissions - Industrial Wastewater Treatment",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 6B from wastewater treatment of industrial and commercial sources."
+    },
+    {
+      "id": "dust_depo_chlorophyll",
+      "title": "PACE - North Atlantic Chlorophyll-a for 2024-2025",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -71.3972331181407,
+              2.41661767123288,
+              -14.8202,
+              24.7859823287671
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-23 00:00:00+00",
+              "2025-05-07 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "PACE/OCI Chlorophyll-a for the North Atlantic Region for three select dust events between 2024 and 2025"
+    },
+    {
+      "id": "EPA-annual-emissions_1B2a_Petroleum",
+      "title": "Gridded 2012 EPA Methane Emissions - Petroleum",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Non-combustion emissions from sector 1B2a for petroleum systems, including production, transportation, and refining."
+    },
+    {
+      "id": "marsh-difference",
+      "title": "Salt Marshes Difference for Pre and Post-Hurricane Ida",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.85,
+              29.03,
+              -90.06,
+              29.65
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-08-23T00:00:00+00:00",
+              "2021-09-09T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Salt marsh distribution from UNEP-WCMC classified based on NDVI and NDWI."
+    },
+    {
+      "id": "co2-diff",
+      "title": "CO\u2082 (Diff)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180.3125,
+              -90.25,
+              179.6875,
+              90.25
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00+00:00",
+              "2022-02-13T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "The changes in carbon dioxide (CO\u2082) levels in our atmosphere versus previous years."
+    },
+    {
+      "id": "lis-global-da-tws",
+      "title": "Terrestrial Water Storage - LIS 10km Global DA",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.950000015724,
+              -59.9822487136459,
+              179.997398050378,
+              89.9999999874719
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-08-02T00:00:00+00:00",
+              "2021-12-01T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Gridded terrestrial water storage (in mm) from 10km global LIS with assimilation"
+    },
+    {
+      "id": "EPA-monthly-emissions_4F_Field_Burning",
+      "title": "Gridded 2012 EPA Methane Emissions - Field Burning (monthly)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 4F from agricultural field burning (monthly)."
+    },
+    {
+      "id": "nlcd-new-urbanization",
+      "title": "NLCD Urbanization",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -145.432662659241,
+              16.061146918464,
+              -48.7856557657902,
+              48.9525856039495
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2001-01-01 00:00:00+00",
+              "2021-01-01 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "National Land Cover Database Land Use Land Cover Classification new urbanization 2001-2021"
+    },
+    {
+      "id": "lis-etsuppression",
+      "title": "Change in ET for 2020 fires using LIS outputs",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -125.039912009738,
+              31.9726651134772,
+              -109.401550219135,
+              49.275663827769
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-01-01T00:00:00+00:00",
+              "2020-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Change in ET for 2020 fires using model outputs from Land Information System (LIS) framework that synthesizes multiple remote sensing observations within the Noah-MP land surface model. Change is calculated as the difference of ET in the immediate post-fire water year from that in the immediate pre-fire water year. The difference is normalized by pre-fire ET and negative values denote vegetation disturbance induced by fire or by a climatological anomaly resulting in the decline in ET."
+    },
+    {
+      "id": "CMIP585-winter-median-ta",
+      "title": "Projected changes to winter (January, February, and March) average daily air temperature",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -126,
+              30,
+              -104,
+              51
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-01-01T00:00:00+00:00",
+              "2085-03-31T12:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Differences in winter (January, February, and March) average daily air temperature between a historical period (1995 - 2014) and multiple 20-year periods from an ensemble of CMIP6 climate projections (SSP5-8.5) downscaled by NASA Earth Exchange (NEX-GDDP-CMIP6)"
+    },
+    {
+      "id": "climdex-tmaxxf-access-cm2-ssp245",
+      "title": "CLIMDEX ACCESS CM2 SSP245 tmaxXF",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00+00:00",
+              "2101-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "CLIMDEX ACCESS CM2 SSP245 - variable tmaxXF"
+    },
+    {
+      "id": "tx-flood-imerg",
+      "title": "IMERG Total Precipitation - 2025 Texas Flood",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -106.700488075874,
+              25.8001180164718,
+              -93.5004276953531,
+              36.6001674187158
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-07-07 00:00:00+00",
+              "2025-07-07 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Total accumulated precipitation from IMERG Final over July 1-7, 2025 to cover precipitation related to the remnants of Tropical Storm Barry in Texas.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "EPA-annual-emissions_5_Forest_Fires",
+      "title": "Gridded 2012 EPA Methane Emissions - Forest Fires",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Emissions from sector 5 from forest fires."
+    },
+    {
+      "id": "EPA-annual-emissions_1B2b_Natural_Gas_Distribution",
+      "title": "Gridded 2012 EPA Methane Emissions - Natural Gas Distribution",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -129.999996946605,
+              19.9999992403397,
+              -59.9999992386978,
+              54.9999969449631
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00+00:00",
+              "2012-12-31T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Non-combustion emissions from sector 1B2b for natural gas distribution."
+    },
+    {
+      "id": "houston-lst-night",
+      "title": "Houston land surface temperature at night time - decadal average",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -97.0000843792259,
+              27.9926756176,
+              -93.9997113302667,
+              31.009709499642
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-01-01T00:00:00+00:00",
+              "2019-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "MODIS-calculated Land Surface Temperature (LST) Nighttime over the Houston metro area, decadally averaged."
+    },
+    {
+      "id": "landsat-c2l2-sr-lakes-lake-biwa",
+      "title": "Selected Landsat 7 through 9 Surface Reflectance Scenes for Lake Biwa",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              135.2055231,
+              33.5515966,
+              138.0953959,
+              35.7354584
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1984-06-11T00:56:49.159075+00:00",
+              "2023-03-19T01:28:30.265546+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Selected low-cloud-cover Landsat Collection-2 Level-2 Surface Reflectance scenes covering Lake Biwa. Products from multiple missions and instruments are combined in this single collection for the purpose of visualizing RGB images. Note that the full item records are not interchangeable across instruments for purposes other than visualization and that the assets available are not the same for each instrument."
+    },
+    {
+      "id": "landsat-c2l2-sr-antarctic-glaciers-pine-island",
+      "title": "Selected Landsat 7 through 9 Surface Reflectance Scenes for the Pine Island Glacier",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -106.167893530711,
+              -75.9081357445658,
+              -96.9280040529868,
+              -73.4994853033245
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2001-01-04T14:42:14.750591+00:00",
+              "2023-01-25T14:52:12.364151+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Selected low-cloud-cover Landsat Collection-2 Level-2 Surface Reflectance scenes covering the Pine Island Glacier. Products from multiple missions and instruments are combined in this single collection for the purpose of visualizing RGB images. Note that the full item records are not interchangeable across instruments for purposes other than visualization and that the assets available are not the same for each instrument."
+    },
+    {
+      "id": "lis-global-da-streamflow",
+      "title": "Streamflow - LIS 10km Global DA",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.950000015724,
+              -59.9822487136459,
+              179.997398050378,
+              89.9999999874719
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-08-01T00:00:00+00:00",
+              "2019-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Routed streamflow (in m3 s-1) from 10km global LIS+HyMAP with assimilation"
+    },
+    {
+      "id": "landsat-c2l2-sr-lakes-vanern",
+      "title": "Selected Landsat 7 through 9 Surface Reflectance Scenes for V\u00e4nern",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              10.9716044,
+              57.4228267,
+              15.8602295,
+              59.7931386
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1984-04-18T09:40:30.064088+00:00",
+              "2023-06-09T10:12:43.999938+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Selected low-cloud-cover Landsat Collection-2 Level-2 Surface Reflectance scenes covering V\u00e4nern. Products from multiple missions and instruments are combined in this single collection for the purpose of visualizing RGB images. Note that the full item records are not interchangeable across instruments for purposes other than visualization and that the assets available are not the same for each instrument."
+    },
+    {
+      "id": "tx-flood-100-yr-recurrence",
+      "title": "Texas Water Development Board Cursory Floodplain Dataset (100 Year Recurrence)- 2025 Texas Flood AOI",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -100,
+              29,
+              -99,
+              31
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-12-31 00:00:00+00",
+              "2021-12-31 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "100 Year Flood recurrence probability frequency over the 2025 Texas Flood area of interest.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "blizzard-millerb",
+      "title": "Miller B Snowfall Footprint",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -64.8,
+              -98,
+              48.9,
+              37.5
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-01-01T23:59:59+00:00",
+              "1950-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Single value raster displaying the general snowfall footprint of a Miller B type of mid-latitude cyclone.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "blizzard-snowfall",
+      "title": "Regional Snowfall Index Accumulated Snowfall (Select Events)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -107.293335956,
+              31.513608703,
+              -66.10449058452,
+              49.7650341850001
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-11-26 00:00:00+00",
+              "2016-01-23 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Regional Snowfall Index (RSI) accumulated snowfall reports interpolated for five select blizzard events.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "blizzard-millera",
+      "title": "Miller A Snowfall Footprint",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -64.8,
+              -83.5,
+              48.9,
+              34.1
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-01-01T23:59:59+00:00",
+              "1950-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Single value raster displaying the general snowfall footprint of a Miller A type of mid-latitude cyclone.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "tx-flood-500-yr-recurrence",
+      "title": "Texas Water Development Board Cursory Floodplain Dataset (500 Year Recurrence)- 2025 Texas Flood AOI",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -100,
+              29,
+              -99,
+              31
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-12-31 00:00:00+00",
+              "2021-12-31 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "500 Year Flood recurrence probability frequency over the 2025 Texas Flood area of interest.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "blizzard-era5-10m-wind",
+      "title": "ERA5 Reanalysis \u2013 10 Meter Wind (Select Events)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-11-26 00:00:00+00",
+              "1978-01-26 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "ERA5 10-meter wind speeds global reanalysis for three select blizzard events.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "blizzard-era5-mslp",
+      "title": "ERA5 Reanalysis \u2013 Mean Sea Level Pressure (Select Events)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-11-26 00:00:00+00",
+              "1978-01-26 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "ERA5 mean sea level pressure (MSLP) global reanalysis for three select blizzard events.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "blizzard-alley",
+      "title": "Blizzard Alley",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -105.231303757,
+              36.871553206,
+              -89.523861547296,
+              49.662629924
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-01-01 00:00:00+00",
+              "1950-01-01 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Single value raster displaying the region of the USA known as Blizzard Alley, where at least 10-20 blizzards have occurred since 1950. Eastern North Dakota seen 50-100+ in the same time period.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "blizzard-clipper",
+      "title": "AB/SK/MB Clipper Snowfall Footprint",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -119.183078994,
+              37.562875138,
+              -79.687239230032,
+              59.602964292
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-01-01 00:00:00+00",
+              "1950-01-01 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Single value raster displaying the general snowfall footprint of Alberta Clipper, Saskatchewan Screamer, and Manitoba Mauler types of mid-latitude cyclones.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "blizzard-co-low",
+      "title": "Colorado Low Snowfall Footprint",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -110.169208687,
+              38.131290592,
+              -80.974375768728,
+              48.54314256
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-01-01 00:00:00+00",
+              "1950-01-01 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Single value raster displaying the general snowfall footprint of a Colorado Low type of mid-latitude cyclone.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "blizzard-noreaster",
+      "title": "Nor\u2019easter Snowfall Footprint",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -77.503542064,
+              36.148737436,
+              -65.001379549592,
+              48.601090538
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-01-01 00:00:00+00",
+              "1950-01-01 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Single value raster displaying the general snowfall footprint of a Nor\u2019easter type of mid-latitude cyclone.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "blizzard-merra2-2m-temp",
+      "title": "MERRA2 Reanalysis \u2013 2 Meter Temperature (Select Events)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180.3125,
+              -90.4392218625214,
+              179.881096368567,
+              90.25
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1991-11-01 21:00:00+00",
+              "2016-01-23 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "MERRA2 2-meter temperature global reanalysis for three select blizzard events.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "derecho-planet-rockvalley",
+      "title": "Planet TrueColor Satellite Imagery (Rock Valley IA Derecho Damage)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -96.7539745360732,
+              43.098501652974,
+              -96.2592283568673,
+              43.3594106035859
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-05-13 00:00:00+00",
+              "2022-05-13 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Commercial SmallSat PlanetScope Satellite Visible Imagery of select locations that experienced derecho damage on May 12th, 2022 in the United States. The location in this collection is Rock Valley, Iowa."
+    },
+    {
+      "id": "blizzard-era5-cfrac",
+      "title": "ERA5 Reanalysis \u2013 Cloud Fraction (Select Events)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-11-26 00:00:00+00",
+              "1978-01-26 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "ERA5 cloud fraction global reanalysis for three select blizzard events.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "blizzard-goes-bombogenesis",
+      "title": "GOES Imagery - Bombogenesis (Select Event)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -98.0019305447347,
+              20.0033417578026,
+              -38.0026554738182,
+              55.0029188825039
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-01-04 00:00:00+00",
+              "2018-01-04 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Single GOES TrueColor three-band image of a mid-latitude cyclone undergoing bomb cyclogenesis and producing blizzard conditions on January 4, 2018.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "blizzard-era5-2m-temp",
+      "title": "ERA5 Reanalysis \u2013 2 Meter Temperature (Select Events)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-11-26 00:00:00+00",
+              "1978-01-26 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "ERA5 2-meter temperature global reanalysis for three select blizzard events.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "la-fires-hrrr-wind",
+      "title": "HRRR 10 Meter Wind Gusts (2025 LA Fires)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -134.121427932801,
+              21.1221927192723,
+              -60.8912445316065,
+              47.8493083864068
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-01-08 02:00:00+00",
+              "2025-01-08 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Simulated 10 meter wind gusts from the High Resolution Rapid Refresh (HRRR) at 02Z on January 8, 2025, around the time that the Eaton Fire ignited. The Palisades Fire had just been ignited earlier that day.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "tx-flood-10-yr-recurrence",
+      "title": "Texas Water Development Board Cursory Floodplain Dataset (10 Year Recurrence)- 2025 Texas Flood AOI",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -100,
+              29,
+              -99,
+              31
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-12-31 00:00:00+00",
+              "2021-12-31 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "10 Year Flood recurrence probability frequency over the 2025 Texas Flood area of interest.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "wldas-derecho-sm",
+      "title": "WLDAS Soil Moisture Content (0-10cm)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.14736806574,
+              17.6743990806176,
+              179.778430117063,
+              71.3892256770318
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-05-11 00:00:00+00",
+              "2022-05-11 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "WLDAS data for the Western United States on May 11th, 2022.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "sst-cyclone-beryl",
+      "title": "SPORT Sea Surface Temperature (K)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -102.82114186853,
+              6.18774585674515,
+              -13.3386672440189,
+              49.6458689694572
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-06-26 00:00:00+00",
+              "2024-07-11 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Satellite-derived sea surface temperatures (SSTs) for select cyclone events.",
+      "product_level": "L2B",
+      "temporal_frequency": "twenty four hours"
+    },
+    {
+      "id": "tx-flood-maxar",
+      "title": "MAXAR Commercial Satellite Imagery (2025 Texas Flood - Post)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-07-08 00:00:00+00",
+              "2025-07-08 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "TrueColor commercial satellite imagery from MAXAR taken on July 8, 2025 of the Guadalupe River in central Texas after a devastating flash flood on July 4, 2025. This data was made available through the NASA Commercial Satellite Data Acquisition (CSDA) Program.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "houston-landcover",
+      "title": "Houston Land Cover",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -97,
+              32,
+              -96,
+              32
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2001-01-01T00:00:00+00:00",
+              "2019-01-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "MODIS-derived land use-land cover over the Houston metro area (zoomed-in extent). Displays colors 0-255 from a lookup table for land cover type (ex: reds = urbanized)."
+    },
+    {
+      "id": "tx-flood-maxar-pre",
+      "title": "MAXAR Commercial Satellite Imagery (2025 Texas Flood - Pre)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-03-12 00:00:00+00",
+              "2025-03-12 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "TrueColor commercial satellite imagery from MAXAR taken on March 12, 2025 of the Guadalupe River in central Texas prior to a devastating flash flood on July 4, 2025. This data was made available through the NASA Commercial Satellite Data Acquisition (CSDA) Program.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "la-fires-planet",
+      "title": "PlanetScope Satellite Imagery (2025 Eaton Fire)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -118.359241572221,
+              33.8220362012666,
+              -117.892444327365,
+              34.3434249083338
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-01-09 00:00:00+00",
+              "2025-01-09 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "TrueColor RGB commercial satellite imagery from Planet Labs of the Eaton Fire on January 9, 2025 north of Los Angeles, CA. This data was made available through the NASA Commercial Satellite Data Acquisition (CSDA) Program",
+      "datetime_range": "day"
+    },
+    {
+      "id": "la-fires-slope",
+      "title": "Eaton and Palisades Fires (2025) Slope",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -118.686148021334,
+              34.0299341616858,
+              -118.013039839435,
+              34.2378271811346
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-01-09 00:00:00+00",
+              "2025-01-09 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Computed slope from a digital elevation model (DEM) of the 2025 Palisades and Eaton Fires' burn scar extent.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "ndvi-global-2022",
+      "title": "Bi-Monthly NDVI GIMMS-3G+",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-01-08 00:00:00+00",
+              "2022-06-23 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "This dataset holds the Global Inventory Modeling and Mapping Studies-3rd Generation V1.2 (GIMMS-3G+) data for the Normalized Difference Vegetation Index (NDVI). NDVI was based on corrected and calibrated measurements from Advanced Very High Resolution Radiometer (AVHRR) data with a spatial resolution of 0.0833 degree and global coverage for 1982 to 2022. Maximum NDVI values are reported within twice monthly compositing periods (two values per month). The dataset was assembled from different AVHRR sensors and accounts for various deleterious effects, such as calibration loss, orbital drift, and volcanic eruptions. The data are provided in NetCDF format."
+    },
+    {
+      "id": "geoglam",
+      "title": "GEOGLAM Crop Monitor",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180.004464285715,
+              -90,
+              180.006112927734,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-01-01 00:00:00+00",
+              "2025-03-31 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "The Crop Monitors were designed to provide a public good of open, timely, science-driven information on crop conditions in support of market transparency for the G20 Agricultural Market Information System (AMIS). Reflecting an international, multi-source, consensus assessment of crop growing conditions, status, and agro-climatic factors likely to impact global production, focusing on the major producing and trading countries for the four primary crops monitored by AMIS (wheat, maize, rice, and soybeans). The Crop Monitor for AMIS brings together over 40 partners from national, regional (i.e. sub-continental), and global monitoring systems, space agencies, agriculture organizations and universities. Read more: https://cropmonitor.org/index.php/about/aboutus/"
+    },
+    {
+      "id": "la-fires-parcels",
+      "title": "ASSR Parcel Damage - Eaton and Palisades Fires (2025)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -118.697189716236,
+              34.0251883453645,
+              -118.012538323701,
+              34.2542502020326
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-01-09 00:00:00+00",
+              "2025-01-09 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Parcel maps within the Eaton and Palisades Fires mapping the level of destruction to buildings on those respective parcels.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "la-fires-sea",
+      "title": "LA County Significant Ecological Areas (SEA)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -118.972832357551,
+              33.2920382791313,
+              -117.645040288092,
+              34.8268624278793
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-01-01 00:00:00+00",
+              "2025-01-01 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Significant Ecological Areas and Coastal Resource Areas in Los Angeles County, California.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "delta-disasters-planet-tornado",
+      "title": "PlanetScope Satellite Imagery (2023 Rolling Fork Tornado)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -91.1770207215219,
+              32.709519065791,
+              -90.7430714501376,
+              33.0892720140666
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-03-25 00:00:00+00",
+              "2023-03-25 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "False Color Composite (FCC) commercial satellite imagery from Planet Labs of the Rolling Fork, Mississippi area after an EF-4 tornado strike on March 24, 2023. This data was made available through the NASA Commercial Satellite Data Acquisition (CSDA) Program.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "landslides-risk-usgs",
+      "title": "USGS Landslide Hazard Estimate Model - Hurricane Helene",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -88.9442006716296,
+              27.0908446689455,
+              -69.6120944240096,
+              42.5301373067401
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-09-29 00:00:00+00",
+              "2024-09-29 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": " The two modeling approaches used were adapted from existing models and were run in early October 2024 using initial precipitation estimates to produce rapid event-specific landslide hazard estimate maps. These preliminary maps were initially released provisionally to meet the need for timely best science during the emergency response (version 1.0). The outputs were used to provide early situational awareness of what areas may have been more severely impacted by landslides and debris flows. These results were also used in planning reconnaissance.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "la-fires-frp",
+      "title": "Eaton and Palisades Fires (2025) Fire Radiative Power",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.950000000006,
+              -90.0499999999898,
+              180.049999999974,
+              89.95
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-01-06 00:00:00+00",
+              "2025-01-12 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Satellite-derived Fire Radiative Power (FRP) for the week of the peak intensities of the Eaton and Palisades Fires in Southern California (2025).",
+      "datetime_range": "day"
+    },
+    {
+      "id": "smap-L3-soil-moisture-AM-v1",
+      "title": "SMAP Soil Moisture L3 AM Swaths",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.999999946507,
+              -85.0090451664356,
+              179.995977875221,
+              85.0445663501987
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-06-09 00:00:00+00",
+              "2022-06-12 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "This Level-3 (L3) soil moisture product provides a daily composite of global land surface conditions retrieved by the Soil Moisture Active Passive (SMAP) L-Band radiometer. The daily data here were collected from the descending (local solar time of 6 am) and ascending (local solar time of 6 pm) passes."
+    },
+    {
+      "id": "la-fires-maxar",
+      "title": "MAXAR Commercial Satellite Imagery (2025 Eaton Fire)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-01-08 00:00:00+00",
+              "2025-01-08 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Subsurface material false color composite commercial satellite imagery from MAXAR of the Eaton Fire on January 8, 2025 north of Los Angeles, CA. This data was made available through the NASA Commercial Satellite Data Acquisition (CSDA) Program.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "county_grasslands_pasture_2019-v1",
+      "title": "County Grasslands and Pasture 2019",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -171.089874,
+              -14.548699,
+              145.830418,
+              71.352561
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-01-01 00:00:00+00",
+              "2019-01-01 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "County-level grasslands and pasture data for 2019"
+    },
+    {
+      "id": "la-fires-gedi",
+      "title": "Eaton and Palisades Fires (2025) Above Groud Biomass",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -118.686148,
+              34.029934,
+              -118.01304,
+              34.237784
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-01-07T00:00:00+00:00",
+              "2025-01-07T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Satellite-derived above-ground biomass (extracted from GEDI data) over the burn scar extents of the Eaton and Palisades Fires in Southern California (2025).",
+      "datetime_range": "day"
+    },
+    {
+      "id": "landslides-nc-flood",
+      "title": "NC DHHS Flood Extent - Hurricane Helene",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -83.6011284275686,
+              35.1175660307412,
+              -80.9789461132237,
+              36.5803218590252
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-09-29 00:00:00+00",
+              "2024-09-29 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Flood extents as determined from Sentinel, NOAA, and USGS datasets and produced by the North Carolina Department of Health and Human Services (NC DHHS). The majority of this raster has flood levels that exceed 100 year FEMA flood extent recurrence levels.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "nightlights-derecho",
+      "title": "VIIRS Night Lights Derecho",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -112.07926856248,
+              39.4795730401518,
+              -88.2545230530161,
+              50.5244113132587
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-05-10 00:00:00+00",
+              "2022-05-10 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Difference in nightlights for the North Plains from 5/10/2022 and 5/16/2022 to demonstrate power outages from the derecho"
+    },
+    {
+      "id": "delta-disasters-planet-flood",
+      "title": "PlanetScope Satellite Imagery (2019 Yazoo Backwater Flood)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -91.1284843744212,
+              32.7214592812359,
+              -90.5489170798989,
+              33.0561213742645
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-05-23 00:00:00+00",
+              "2019-05-23 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "False Color Composite (FCC) commercial satellite imagery from Planet Labs of the Mississippi Delta area from the peak of the 2019 backwater flooding. This data was made available through the NASA Commercial Satellite Data Acquisition (CSDA) Program.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "tornado-tracks-derecho",
+      "title": "NWS Tornado Tracks (May 12, 2022)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -97.9310872905104,
+              44.4325835996063,
+              -93.0929536266931,
+              46.0474020661888
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-05-12 00:00:00+00",
+              "2022-05-12 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Official NWS surveyed tornado tracks from May 12th 2022. Only the centerline of the tornado paths, classified by maximum EF rating."
+    },
+    {
+      "id": "landslides-ndvi",
+      "title": "S2 NDVI Difference - Hurricane Helene",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -84.3713182091937,
+              34.2096670331441,
+              -80.8902406792216,
+              37.046532280591
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-10-12 00:00:00+00",
+              "2024-10-12 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Normalized Difference Vegetation Index (NDVI) differences post minus pre-Helene in the Southern Appalachia region. This index was computed from Sentinel 2 data at 10m spatial resolution.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "modis-derecho",
+      "title": "MODIS Aersol Optical Depth (AOD) for May 12, 2022",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -104.958794749103,
+              39.6041850424021,
+              -87.8641172323396,
+              49.6359847902227
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-05-12 00:00:00+00",
+              "2022-05-12 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "MODIS AOD over the Northern Plains region during the daytime on May 12, 2022"
+    },
+    {
+      "id": "windgusts-derecho",
+      "title": "NCEI Wind Gusts for 05/12/2022",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -104.980438295432,
+              39.6145318936159,
+              -87.8537072805595,
+              49.6220400607975
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-05-12 00:00:00+00",
+              "2022-05-12 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "NCEI Storm Events Database wind gusts exceeding 70mph for the derecho of May 12th, 2022"
+    },
+    {
+      "id": "derecho-planet-hartington",
+      "title": "Planet TrueColor Satellite Imagery (Hartington NE Derecho Damage)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -97.5250210215867,
+              42.4895150394092,
+              -97.0405943029224,
+              42.749975491422
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-05-13 00:00:00+00",
+              "2022-05-13 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Commercial SmallSat PlanetScope Satellite Visible Imagery of select locations that experienced derecho damage on May 12th, 2022 in the United States. The location in this collection is Hartington, Nebraska."
+    },
+    {
+      "id": "lis-tws-anomaly",
+      "title": "Terrestrial Water Storage (TWS) Anomalies",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-09-01T00:00:00+00:00",
+              "2021-12-01T00:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Anomalies in Terrestrial Water Storage (TWS) modeled using LIS framework by assimilating GRACE TWS, soil moisture, and leaf area index over 2001-2021."
+    },
+    {
+      "id": "lis-tws-trend",
+      "title": "Trend in Terrestrial Water Storage (TWS) Anomalies",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-09-01T00:00:00+00:00",
+              "2021-12-01T23:59:59+00:00"
+            ]
+          ]
+        }
+      },
+      "description": "Trends in anomalies of Terrestrial Water Storage (TWS) modeled using LIS framework by assimilating GRACE TWS, soil moisture, and leaf area index over 2001-2021"
+    },
+    {
+      "id": "landslides-planet-during",
+      "title": "PlanetScope Satellite Imagery (Asheville NC - Hurricane Helene - During)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -82.7229958366709,
+              35.4139606499621,
+              -82.3391445332326,
+              35.6437261241034
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-09-28 00:00:00+00",
+              "2024-09-28 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "TrueColor RGB commercial satellite imagery from Planet Labs of Asheville, North Carolina during massive flodding caused by Hurricane Helene. This data was made available through the NASA Commercial Satellite Data Acquisition (CSDA) Program.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "delta-disasters-hd-blackmarble-nightlights",
+      "title": "High Definition Black Marble Nightlights (2023 Rolling Fork Tornado)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.9564104193506,
+              32.8323803764113,
+              -90.7879404756439,
+              32.9665522416491
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-03-15 00:00:00+00",
+              "2023-03-25 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "The High Definition Nightlights dataset is a derived product for measuring light emissions for a given location. Darker colors indicate lower light emissions while lighter colors indicate high light emissions."
+    },
+    {
+      "id": "landslides-imerg",
+      "title": "IMERG Total Precipitation - Hurricane Helene",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.0111914687761,
+              24.9731648985227,
+              -74.9194946955681,
+              38.2682311034916
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-09-29 00:00:00+00",
+              "2024-09-29 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Total accumulated precipitation from IMERG Final over September 23-30, 2024 to cover precipitation related to Hurricane Helene in the Southeast US.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "la-fires-HLS",
+      "title": "HLS False Color Imagery (2025 LA fires)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -119.173780060483,
+              33.3327671071438,
+              -117.969375418501,
+              34.3377366075886
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-01-06 00:00:00+00",
+              "2025-01-14 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "HLS Satellite imagery for LA Fires"
+    },
+    {
+      "id": "burma-eq-s2-deformation-ew",
+      "title": "S2 East-West Deformation - 2025 Burma Earthquake",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              94.8788700962534,
+              17.0594875008652,
+              97.011227098852,
+              23.4996040045561
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-04-01 00:00:00+00",
+              "2025-04-01 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "NASA/JPL/Caltech/ARIA product - modified Copernicus Sentinel-2 Multispectral Imager (MSI) east-west ground displacement from February 28 to April 1, 2025.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "landslides-hls-disturbance",
+      "title": "HLS Disturbance Product - Hurricane Helene",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -83.2483799039467,
+              35.1350019519995,
+              -80.8902406792216,
+              37.046532280591
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-10-02 00:00:00+00",
+              "2024-10-02 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Difference between historical and current year observed vegetation cover at the date of maximum decrease (vegetation loss of 0-100%). This layer can be used to threshold vegetation disturbance per a given sensitivity (e.g. disturbance of \u00e2\u2030\u00a520% vegetation cover loss). The sum of the historical percent vegetation and the anomaly value will be the vegetation cover estimate for the current year.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "landslides-inventory",
+      "title": "USGS Landslides Inventory - Hurricane Helene",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -84.43981,
+              34.67269,
+              -80.89891,
+              36.86509
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-09-29 00:00:00+00",
+              "2024-09-29 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Locations of confirmed landslides per the USGS that occurred as a result of Hurricane Helene.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "landslides-planet-post",
+      "title": "PlanetScope Satellite Imagery (NC/TN Hurricane Helene - Post)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -83.1500000527209,
+              35.2857150359243,
+              -81.9526742674566,
+              36.3532215075687
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-10-05 00:00:00+00",
+              "2024-10-08 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "TrueColor RGB commercial satellite imagery from Planet Labs of damage in North Carolina and Tennessee from Hurricane Helene's impacts. This data was made available through the NASA Commercial Satellite Data Acquisition (CSDA) Program.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "burma-eq-s2-deformation-ns",
+      "title": "S2 North-South Deformation - 2025 Burma Earthquake",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              94.8788700962534,
+              17.0594875008652,
+              97.011227098852,
+              23.4996040045561
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-04-01 00:00:00+00",
+              "2025-04-01 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "NASA/JPL/Caltech/ARIA product - modified Copernicus Sentinel-2 Multispectral Imager (MSI) north-south ground displacement from February 28 to April 1, 2025.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "landslides-planet-pre",
+      "title": "PlanetScope Satellite Imagery (NC Hurricane Helene - Pre)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -82.9621903427543,
+              35.341622242718,
+              -82.1307223441384,
+              35.892003135985
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-09-21 00:00:00+00",
+              "2024-09-21 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "TrueColor RGB commercial satellite imagery from Planet Labs of portions of North Carolina from before Hurricane Helene's impacts. This data was made available through the NASA Commercial Satellite Data Acquisition (CSDA) Program.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "burma-eq-planet-pre",
+      "title": "PlanetScope Satellite Imagery (2025 Burma Earthquake - Pre)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              95.9311405354608,
+              21.7508706485842,
+              96.3248872663656,
+              22.142002308048
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-03-28 00:00:00+00",
+              "2025-03-28 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "TrueColor RGB commercial satellite imagery from Planet Labs of the Mandalay, Burma area from before the 2025 earthquake. This data was made available through the NASA Commercial Satellite Data Acquisition (CSDA) Program.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "landslides-kd-impacted-structures",
+      "title": "Impactful Landslides Kernel Density - Hurricane Helene",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -122.05408255624,
+              31.847410260088,
+              -18.2396196099792,
+              39.3545926857612
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-09-29 00:00:00+00",
+              "2024-09-29 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "Kernel density analysis of confirmed landslides that per the USGS directly impacted structures, roads, or rivers and occurred as a result of Hurricane Helene.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "burma-eq-night-lights",
+      "title": "Black Marble Night Lights - 2025 Burma Earthquake",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              89.2359088495081,
+              19.769737026028,
+              100.091428685787,
+              30.3117376270951
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-03-23 00:00:00+00",
+              "2025-03-29 23:59:59+00"
+            ]
+          ]
+        }
+      },
+      "description": "NASA's Black Marble Night Lights dataset for before and after the 2025 Burma earthquake shows massive power outages in the Mandalay area.",
+      "datetime_range": "day"
+    },
+    {
+      "id": "ercot-houston-nightlights-freeze",
+      "title": "Black Marble Night Lights (Houston, TX 2021 Deep Freeze)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -96.0885,
+              29.2045,
+              -94.5587,
+              30.3265
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-02-10 00:00:00+00",
+              "2021-02-16 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "Black Marble Night Lights for Houston, Texas during the Deep Freeze Event for both February 10, 2021 (before) and February 16, 2021 (after) that affected ERCOT's power grid."
+    },
+    {
+      "id": "ERCOT-MODIS",
+      "title": "MODIS LST for Texas on June 23, 2023",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -106.64742831927,
+              25.8333333333354,
+              -93.5109070155683,
+              36.5116498162012
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-06-23 00:00:00+00",
+              "2023-06-23 00:00:00+00"
+            ]
+          ]
+        }
+      },
+      "description": "MODIS Land-Surface Temperatures over the state of Texas on June 23, 2023 during the 2023 Heatwave"
+    }
+  ],
+  "numberMatched": 240,
+  "numberReturned": 240
+}

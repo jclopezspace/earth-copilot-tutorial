@@ -35,7 +35,7 @@ The architecture is powered by the following Azure services:
 - Basic knowledge of Python and command-line usage
 - Access to VEDA collection metadata or your own STAC metadata via Microsoft Planetary Computer-Pro (https://learn.microsoft.com/en-us/azure/planetary-computer/)
 - An Azure Subscription (for deploying required services)
-- Access to Earth Copilot GitHub repository (ADD LINK)
+- Access to Earth Copilot GitHub repository (git clone https://github.com/jclopezspace/earth-copilot.git)
 
 ---
 
@@ -74,6 +74,9 @@ Refer to the sample config files in `earth_copilot/` for structure.
 ## 2. Clone the Repository
 You can start by cloning this repository or copying the code structure into your own project folder.
 
+```bash
+git clone https://github.com/jclopezspace/earth-copilot.git
+```
 ---
 
 ## 3. Install Dependencies
@@ -139,8 +142,18 @@ STAC (SpatioTemporal Asset Catalog) is an open specification for describing geos
 Learn more: [STAC Overview on Microsoft Learn](https://learn.microsoft.com/en-us/azure/planetary-computer/stac-overview)
 
 ### Using VEDA Collection Metadata
-By default, the agent loads VEDA collection metadata from `utils/output_schema.json` and `utils/minimize_collection_metadata.py`.
-You can also use metadata exported from Microsoft Planetary Computer-Pro, which provides a rich catalog of global Earth science datasets in STAC format.
+By default, the agent loads VEDA collection metadata:
+
+1. **Latest NASA VEDA collections** were accessed from the official VEDA STAC API: https://openveda.cloud/api/stac/collections
+2. **Downloaded and saved** as `open_veda_collections.json` in the `utils/` folder for local processing
+3. **Processed and minimized** using `utils/minimize_collection_metadata.py` to remove unnecessary fields while preserving essential spatial and temporal extent information
+4. **Indexed** into Azure AI Search for fast similarity search and retrieval
+
+The `utils/` folder contains:
+- `open_veda_collections.json` - The complete NASA VEDA collections metadata
+- `open_veda_collections_minimized_with_extents.json` - Processed version with reduced size
+- `minimize_collection_metadata.py` - Script to process and minimize the metadata
+- `output_schema.json` - JSON schema for the agent's output format
 
 ### Using Your Own STAC Metadata
 To use your own STAC metadata (including from Microsoft Planetary Computer-Pro):

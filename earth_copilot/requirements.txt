@@ -1,8 +1,11 @@
 azure-search-documents
 azure-identity
 azure-maps-search
+azure-ai-ml
 promptflow
 promptflow-tools
+promptflow-devkit
+promptflow-azure
 langchain
 langchainhub 
 langchain-community
@@ -11,3 +14,4 @@ langchain-openai
 wikipedia
 shapely
 DateTimeRange
+python-dotenv

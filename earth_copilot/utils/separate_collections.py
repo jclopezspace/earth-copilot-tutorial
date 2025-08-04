@@ -1,6 +1,7 @@
 import json
 
-in_file_path='/Users/minh/Downloads/open_veda_collections_minimized_with_extents.json' 
+current_dir = os.path.dirname(os.path.abspath(__file__))
+in_file_path = os.path.join(current_dir, 'open_veda_collections_minimized_with_extents.json')
 
 with open(in_file_path,'r') as in_json_file:
 
