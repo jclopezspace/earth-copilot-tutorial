@@ -42,20 +42,26 @@ The architecture is powered by the following Azure services:
 ## 1a. Provision Required Azure Services
 You will need to create and configure the following Azure resources:
 
-### 1. Azure OpenAI Service
-- Go to the [Azure Portal](https://portal.azure.com/).
-- Search for "Azure OpenAI" and create a new resource.
-- Deploy a model (e.g., `gpt-4o-mini`).
-- After deployment, note your endpoint and API key.
+### 1. Azure Maps
+- In the Azure Portal, search for "Azure Maps" and create a new resource.
+- After creation, go to "Authentication" and copy your Primary Key.
+
+**📖 For detailed setup instructions:** [01 Create Map.md](01%20Create%20Map.md)
 
 ### 2. Azure AI Search
 - In the Azure Portal, search for "Azure AI Search" and create a new resource.
 - Create an index for your Earth science metadata (VEDA or STAC collections).
 - Note your Search endpoint, API key, and index name.
 
-### 3. Azure Maps
-- In the Azure Portal, search for "Azure Maps" and create a new resource.
-- After creation, go to "Authentication" and copy your Primary Key.
+**📖 For detailed setup instructions:** [02 Create AI Search.md](02%20Create%20AI%20Search.md)
+
+### 3. Azure OpenAI Service
+- Go to the [Azure Portal](https://portal.azure.com/).
+- Search for "Azure OpenAI" and create a new resource.
+- Deploy a model (e.g., `gpt-4o-mini`).
+- After deployment, note your endpoint and API key.
+
+**📖 For detailed setup instructions:** [03 AOAI.md](03%20AOAI.md)
 
 ### 4. Azure Blob Storage
 - If you want to store or serve large metadata files, create a Blob Storage account.
