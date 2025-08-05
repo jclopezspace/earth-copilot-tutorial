@@ -178,17 +178,57 @@ METADATA_PATH = "utils/your_stac_metadata.json"
 ---
 
 ## 6. Running the Agent
-To start the agent, run:
+Promptflow CLI provides a way to start an interactive chat session for chat flow. You can use below command to start an interactive chat session: 
 
 ```bash
-python search_agent.py
+# Test VEDA Search POC
+cd earth_copilot
+pf flow test --flow . --interactive
+```
+
+After executing this command, you can interact with the chat flow in the terminal. Press Enter to send the message to chat flow. Quit with ctrl+C.
+
+
+The Earth Copilot also takes the form of a web API, allowing for integration into any number of applications, including the VEDA UI. To this end, Prompt Flow allows you to run the Earth Copilot flow as a web API locally by running the following:
+
+```bash
+# Test as web API
+pf flow serve --source ./earth_copilot --port 8080 --host localhost
+
+```
+In the query type in `tell me about California fires`
+>Note: The current codebase uses Prompt Flow and will require connections to be setup. So the first few times you execute this you will see errors requesting connections to be setup. The following is an example of what the command to use to populate the connection. Please see the Potential Issues file for assistance.
+
+![apidemo](assets/apidemo.png)
+
+Here are a few other examples of outputs in different modalities, including a web UI, and the second is an API testing tool:
+
+![webUIdemo](assets/VEDA_Search_POC_terminal4.png)
+![apidemo](assets/VEDA_Search_POC_Bruno.png)
+
+Once you've started up the Earth Copilot web API, you can navigate to this address to obtain its Open API documentation, in JSON format:
+
+http://localhost:8080/swagger.json
+
+## 6. Deploying to Azure
+First, create an Azure Container Registry.  This will host the Earth Copilot, which will be built as a Docker container.  Make sure that Docker Desktop is running.
+
+This will package the distribution and create a Dockerfile that our deployment script will reference:
+
+```bash
+# Build Docker container
+pf flow build --source ./earth_copilot --output dist --format docker
+
+# Deploy using the provided script at the root level 
+> Note: If you are on a Mac or Linux device you can run this directly. On Windows it needs Github Bash
+./deploy.sh -i earth_copilot:v1 -r vedageocr.azurecr.io -n veda-search-deployment -l eastus -g < Resource-Group-Name -p dist
 ```
 
 ---
 
 ## 7. Customization Tips
 - **System Prompt:** Edit `prompt_templates.py`.
-- **Metadata:** Swap or edit files in `utils/`.
+- **Metadata:** Swap or edit files in `utils/` and replace file in your AI Search step for RAG.
 - **Agent Logic:** Modify `search_agent.py` and tools in `tools/` as needed.
 - **Dependencies:** If you add new tools or features, update `requirements.txt` accordingly.
 
