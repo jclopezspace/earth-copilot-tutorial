@@ -273,4 +273,4 @@ earth_copilot/
 ---
 
 ## Credits
-Adapted from the VEDA_Search_POC developed by NASA IMPACT and Microsoft. This POC is designed to showcase the capabilities of Earth Copilot in handling Earth science data.
+Adapted from the VEDA_Search_POC developed by Minh Nguyen (Microsoft), in collaboration with NASA IMPACT. This POC is designed to showcase the capabilities of Azure service to handle geospatial data.
